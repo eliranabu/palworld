@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Compass } from "lucide-react";
+import { SearchPalette } from "@/components/search/SearchPalette";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -16,17 +17,20 @@ export function Header() {
           <Compass className="size-5 text-amber-400" aria-hidden="true" />
           <span className="text-sm font-bold tracking-tight">Palworld Hunter</span>
         </Link>
-        <nav className="flex items-center gap-6">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm text-zinc-400 transition-colors hover:text-amber-300"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="flex items-center gap-5">
+          <nav className="flex items-center gap-6">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm text-zinc-400 transition-colors hover:text-amber-300"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+          <SearchPalette />
+        </div>
       </div>
     </header>
   );

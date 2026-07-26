@@ -29,7 +29,10 @@ const CATEGORY_ICONS: Record<ItemCategory, LucideIcon> = {
 function ItemCard({ item }: { item: Item }) {
   const Icon = CATEGORY_ICONS[item.category];
   return (
-    <article className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-white/20 hover:bg-white/[0.07]">
+    <article
+      id={item.id}
+      className="scroll-mt-24 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-white/20 hover:bg-white/[0.07] target:border-amber-400/50"
+    >
       <header className="mb-2 flex items-baseline justify-between gap-3">
         <h3 className="flex items-center gap-2 text-lg font-semibold text-zinc-50">
           <Icon className="size-4 shrink-0 text-amber-400/70" aria-hidden="true" />
