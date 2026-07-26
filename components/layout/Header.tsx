@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { href: "/locations", label: "מיקומים" },
   { href: "/items", label: "פריטים" },
   { href: "/map", label: "מפה" },
+  { href: "/progress", label: "ההתקדמות שלי" },
 ];
 
 export function Header() {
