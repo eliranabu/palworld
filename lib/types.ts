@@ -29,6 +29,7 @@ export type LegendaryPal = {
   threatLevel: ThreatLevel;
   nearbyLandmarks: string[];
   notes: string;
+  notesHe: string;
   sources: SourceRef[];
   lastVerifiedVersion: string;
 };
@@ -51,6 +52,7 @@ export type HugeDragonEggZone = {
   recommendedLevel: number;
   threatLevel: ThreatLevel;
   notes: string;
+  notesHe: string;
   sources: SourceRef[];
   lastVerifiedVersion: string;
 };

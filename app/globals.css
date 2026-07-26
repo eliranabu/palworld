@@ -26,3 +26,17 @@ body {
     Helvetica,
     sans-serif;
 }
+
+.leaflet-container {
+  background: #071c2b;
+}
+
+.leaflet-control-zoom a {
+  background-color: rgba(10, 10, 15, 0.7) !important;
+  color: #ededf2 !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: rgba(10, 10, 15, 0.9) !important;
+}
