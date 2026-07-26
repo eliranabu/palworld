@@ -1,0 +1,17 @@
+{
+  "name": "Palworld Hunter",
+  "short_name": "Palworld Hunter",
+  "description": "Companion site for Palworld — Legendary Pal spawns, Huge Dragon Egg hotspots, and a Hebrew item database.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
