@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { CircleDot, Crosshair, Swords, Shield, Gem, Utensils, type LucideIcon } from "lucide-react";
 import { ammo, armor, materials, spheres } from "@/lib/data";
 import type { Item, ItemCategory } from "@/lib/types";
@@ -109,10 +108,6 @@ const PENDING_CATEGORIES = [
 export default function ItemsPage() {
   return (
     <div dir="rtl" lang="he" className="mx-auto w-full max-w-6xl px-6 py-16 sm:px-10">
-      <Link href="/" className="mb-8 inline-block text-sm text-zinc-400 hover:text-amber-300">
-        ← חזרה לדף הבית
-      </Link>
-
       <header className="mb-12">
         <h1 className="mb-3 text-4xl font-extrabold tracking-tight text-zinc-50">
           מאגר פריטים
