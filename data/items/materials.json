@@ -4,8 +4,8 @@
     "nameEn": "Ore",
     "nameHe": "עפרת נחושת",
     "category": "material",
-    "descriptionHe": "המחצב הבסיסי ביותר במשחק, מותך למטילים לצורך יצירת כלי נשק וכלי עבודה מתכתיים ראשוניים.",
-    "howToObtainHe": "כרייה מסלעי עפרה מנוקדים בעזרת מכוש, פזורים בכל רחבי המפה.",
+    "descriptionHe": "המחצב הבסיסי ביותר במשחק, מותך למטילים לצורך יצירת כלי נשק וכלי עבודה מתכתיים ראשוניים. כמעט כל שרשרת הייצור המתכתית של המשחק — משריון מתכת ועד לרוב הנשקים — מתחילה בעפרה הזו, כך שכדאי לצבור ממנה מלאי גדול כבר בשלב מוקדם.",
+    "howToObtainHe": "כרייה מסלעי עפרה מנוקדים בעזרת מכוש, פזורים בכל רחבי המפה — לרוב באזורים הרריים וסלעיים.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Ore", "url": "https://palworld.wiki.gg/wiki/Ore" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -14,7 +14,7 @@
     "nameEn": "Coal",
     "nameHe": "פחם",
     "category": "material",
-    "descriptionHe": "דלק לכבשנים ומרכיב חיוני למטיל המזוקק. גושי הפחם כהים כמעט שחורים, בצורה דומה לסלעי הנחושת.",
+    "descriptionHe": "דלק לכבשנים ומרכיב חיוני למטיל המזוקק. גושי הפחם כהים כמעט שחורים, בצורה דומה לסלעי הנחושת, ולכן קל להתבלבל ביניהם ממבט ראשון עד שמתרגלים להבדיל בין הצבעים.",
     "howToObtainHe": "כרייה מסלעים כהים ייעודיים, בשפע במיוחד בשולי הר אובסידיאן.",
     "sources": [{ "label": "Forbes — Where To Find Palworld Coal, Sulfur, Pure Quartz...", "url": "https://www.forbes.com/sites/paultassi/2024/01/26/where-to-find-palworld-coal-sulfur-pure-quartz-pal-fluids-oil-organs-and-more/" }],
     "lastVerifiedVersion": "1.0.1"
@@ -24,7 +24,7 @@
     "nameEn": "Sulfur",
     "nameHe": "גופרית",
     "category": "material",
-    "descriptionHe": "מרכיב מרכזי בתחמושת חומרי נפץ כמו רימונים ותחמושת רקטות. סלעי הגופרית קטנים יחסית ובעלי גוון צהוב בולט.",
+    "descriptionHe": "מרכיב מרכזי בתחמושת חומרי נפץ כמו רימונים ותחמושת רקטות. סלעי הגופרית קטנים יחסית ובעלי גוון צהוב בולט שמבדיל אותם משאר סלעי הכרייה.",
     "howToObtainHe": "כרייה מסלעים צהובים ייעודיים; שכיחה במיוחד באזורי הפעילות הוולקנית של Feybreak.",
     "sources": [{ "label": "Forbes — Where To Find Palworld Coal, Sulfur, Pure Quartz...", "url": "https://www.forbes.com/sites/paultassi/2024/01/26/where-to-find-palworld-coal-sulfur-pure-quartz-pal-fluids-oil-organs-and-more/" }],
     "lastVerifiedVersion": "1.0.1"
@@ -34,8 +34,8 @@
     "nameEn": "Pure Quartz",
     "nameHe": "קוורץ טהור",
     "category": "material",
-    "descriptionHe": "גביש בעל מוליכות גבוהה, נדרש לרכיבים אלקטרוניים ולציוד טכנולוגי מתקדם. הגושים מזוהים על ידי בליטות גבישיות כחלחלות-לבנות.",
-    "howToObtainHe": "כרייה מגושים ייעודיים, בעיקר סביב הרי האסטרל (Astral Mountains).",
+    "descriptionHe": "גביש בעל מוליכות גבוהה, נדרש לרכיבים אלקטרוניים ולציוד טכנולוגי מתקדם. הגושים מזוהים על ידי בליטות גבישיות כחלחלות-לבנות שבולטות בבירור על רקע הסלע.",
+    "howToObtainHe": "כרייה מגושים ייעודיים, בעיקר סביב הרי האסטרל (Astral Mountains) — אזור קר שדורש ציוד עמיד-קור.",
     "sources": [{ "label": "VGC — Palworld 1.0: Find Pure Quartz, best farming location", "url": "https://www.videogameschronicle.com/guide/palworld-10-pure-quartz-best-farming-location/" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -44,7 +44,7 @@
     "nameEn": "Chromite",
     "nameHe": "כרומיט",
     "category": "material",
-    "descriptionHe": "מחצב נדיר יחסית הדרוש לציוד ברמה גבוהה. אינו גלוי לעין — יש לאתר אותו במכשיר מיוחד.",
+    "descriptionHe": "מחצב נדיר יחסית הדרוש לציוד ברמה גבוהה. בשונה משאר המשאבים במשחק, הוא אינו גלוי לעין על פני השטח — יש לאתר אותו במכשיר ייעודי, מה שהופך את איסופו למשימה נפרדת ולא רק לכרייה שגרתית.",
     "howToObtainHe": "יש ליצור גלאי מתכות (Metal Detector) או ללכוד את הפאל Smokie, ולהיכנס למבוכי Feybreak; המכשיר משמיע צליל ככל שמתקרבים לגוש כרומיט.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Ores", "url": "https://palworld.wiki.gg/wiki/Ores" }],
     "lastVerifiedVersion": "1.0.1"
@@ -54,8 +54,8 @@
     "nameEn": "Crude Oil",
     "nameHe": "נפט גולמי",
     "category": "material",
-    "descriptionHe": "משאב נוזלי הנדרש לייצור דלק וחומרים תעשייתיים מתקדמים.",
-    "howToObtainHe": "נאסף ממאגרי נפט במפה או מופל מפאלים מסוימים.",
+    "descriptionHe": "משאב נוזלי הנדרש לייצור דלק וחומרים תעשייתיים מתקדמים. מסמן בדרך כלל את המעבר לשלב התיעוש של הבסיס — מבנים ומכונות רבות בשלב האמצעי-מאוחר תלויים באספקה סדירה שלו.",
+    "howToObtainHe": "נאסף ממאגרי נפט במפה (הנראים כברכות כהות ודביקות) או מופל מפאלים מסוימים.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Ores", "url": "https://palworld.wiki.gg/wiki/Ores" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -64,7 +64,7 @@
     "nameEn": "Paldium Fragment",
     "nameHe": "שבר פלדיום",
     "category": "material",
-    "descriptionHe": "אנרגיה מגובשת שמקורה בעץ העולם (World Tree), המסוגלת ליצור פריטים ומבנים על-טבעיים. מרכיב חיוני כמעט בכל דרגות כדורי התפיסה.",
+    "descriptionHe": "אנרגיה מגובשת שמקורה בעץ העולם (World Tree), המסוגלת ליצור פריטים ומבנים על-טבעיים. מרכיב חיוני כמעט בכל דרגות כדורי התפיסה — כלומר בלעדיו אי אפשר לתפוס פאלים כלל, מה שהופך אותו למשאב הכי-קריטי בשלב הפתיחה.",
     "howToObtainHe": "כרייה מסלעי פלדיום כחולים-זוהרים, טיפה אקראית בכרייה רגילה, יצירה בכתישה (Crusher) מאבן, או קבלה מפאלים מסוימים בעת לכידה או תבוסה.",
     "sources": [{ "label": "Palworld Fandom — Paldium Fragment", "url": "https://palworld.fandom.com/wiki/Paldium_Fragment" }],
     "lastVerifiedVersion": "1.0.1"
@@ -74,8 +74,8 @@
     "nameEn": "Meteorite Fragment",
     "nameHe": "שבר מטאוריט",
     "category": "material",
-    "descriptionHe": "שבר סלע מהחלל החיצון העשיר בשברי פלדיום, שניתן לחלץ מתוכו בעזרת מתקן הכתישה.",
-    "howToObtainHe": "מתקבל אך ורק מאירועי מטאוריטים (Meteorite Events); לא ניתן ליצירה.",
+    "descriptionHe": "שבר סלע מהחלל החיצון העשיר בשברי פלדיום, שניתן לחלץ מתוכו בעזרת מתקן הכתישה. מכיוון שהוא זמין רק בזמן אירוע מוגבל, שחקנים רבים מתכננים מראש להיות ליד אתר הנחיתה כשמתריעים על מטאוריט מתקרב.",
+    "howToObtainHe": "מתקבל אך ורק מאירועי מטאוריטים (Meteorite Events) — משבר סלע שנופל מהשמיים בפתאומיות; לא ניתן ליצירה.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Meteorite Fragment", "url": "https://palworld.wiki.gg/wiki/Meteorite_Fragment" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -84,7 +84,7 @@
     "nameEn": "Ancient Civilization Parts",
     "nameHe": "חלקי ציוויליזציה עתיקה",
     "category": "material",
-    "descriptionHe": "שרידים שנחפרו מהריסות עתיקות ומכילים מידע רב על טכנולוגיה שאבדה. חומר יקר ערך במיוחד, נדרש לציוד ברמות הגבוהות ביותר.",
+    "descriptionHe": "שרידים שנחפרו מהריסות עתיקות ומכילים מידע רב על טכנולוגיה שאבדה. חומר יקר ערך במיוחד, נדרש לציוד ברמות הגבוהות ביותר ולשדרוגי בסיס מתקדמים — בדרך כלל אחד מצווארי הבקבוק העיקריים בשלב הסופי של המשחק.",
     "howToObtainHe": "מתקבלים מהבסת או לכידה של בוסי אלפא, בוסי מבוך, פאלים בני-מזל (Lucky Pals), או מפתיחת תיבות אוצר נדירות.",
     "sources": [{ "label": "Palworld Fandom — Ancient Civilization Parts", "url": "https://palworld.fandom.com/wiki/Ancient_Civilization_Parts" }],
     "lastVerifiedVersion": "1.0.1"
@@ -94,8 +94,8 @@
     "nameEn": "Ingot",
     "nameHe": "מטיל מתכת",
     "category": "material",
-    "descriptionHe": "מטיל המתכת הבסיסי, המרכיב העיקרי ברוב כלי הנשק והשריון ברמות המוקדמות-בינוניות.",
-    "howToObtainHe": "נוצר בכבשן (Furnace) משתי יחידות עפרה, בעזרת פאל בעל התאמת עבודה 'הבערה' (Kindling).",
+    "descriptionHe": "מטיל המתכת הבסיסי, המרכיב העיקרי ברוב כלי הנשק והשריון ברמות המוקדמות-בינוניות. זהו הצעד הראשון בשרשרת ההתכה שממשיכה מאוחר יותר למטילים המזוקקים והמתקדמים יותר.",
+    "howToObtainHe": "נוצר בכבשן (Furnace) משתי יחידות עפרה, בעזרת פאל בעל התאמת עבודה 'הבערה' (Kindling) שמאיץ משמעותית את קצב ההתכה.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Ingot", "url": "https://palworld.wiki.gg/wiki/Ingot" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -104,8 +104,8 @@
     "nameEn": "Refined Ingot",
     "nameHe": "מטיל מזוקק",
     "category": "material",
-    "descriptionHe": "שדרוג למטיל הרגיל, נדרש לציוד ברמת ביניים-גבוהה.",
-    "howToObtainHe": "נוצר משתי יחידות עפרה ושתי יחידות פחם בכבשן משופר (Improved Furnace) ומעלה.",
+    "descriptionHe": "שדרוג למטיל הרגיל, נדרש לציוד ברמת ביניים-גבוהה. ההבדל העיקרי מהמטיל הבסיסי הוא תוספת הפחם למתכון, שמעניקה למתכת תכונות חזקות יותר.",
+    "howToObtainHe": "נוצר משתי יחידות עפרה ושתי יחידות פחם בכבשן משופר (Improved Furnace) ומעלה — כבשן בסיסי אינו מספיק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Refined Ingot", "url": "https://palworld.wiki.fextralife.com/Refined_Ingot" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -114,8 +114,8 @@
     "nameEn": "Pal Metal Ingot",
     "nameHe": "מטיל מתכת-פאל",
     "category": "material",
-    "descriptionHe": "מטיל יוקרתי המיוצר ממתכת-פאל נדירה, נחשק בזכות איכותו הגבוהה. נדרש לציוד מתקדם בשלב האמצעי-מאוחר של המשחק.",
-    "howToObtainHe": "נוצר מארבע יחידות עפרה ושתי יחידות שבר פלדיום בכבשן חשמלי (Electric Furnace).",
+    "descriptionHe": "מטיל יוקרתי המיוצר ממתכת-פאל נדירה, נחשק בזכות איכותו הגבוהה. נדרש לציוד מתקדם בשלב האמצעי-מאוחר של המשחק, וגם למגוון מתכוני כדורי תפיסה מהדרגות הבינוניות-גבוהות.",
+    "howToObtainHe": "נוצר מארבע יחידות עפרה ושתי יחידות שבר פלדיום בכבשן חשמלי (Electric Furnace) — מתקן שדורש חשמל פעיל בבסיס.",
     "sources": [{ "label": "Game8 — How to Get Pal Metal Ingot", "url": "https://game8.co/games/Palworld/archives/440128" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -124,7 +124,7 @@
     "nameEn": "Coralum Ingot",
     "nameHe": "מטיל קורלום",
     "category": "material",
-    "descriptionHe": "מטיל מתקדם המשמש ביצירת ציוד וכלי נשק בשלב מאוחר של המשחק.",
+    "descriptionHe": "מטיל מתקדם המשמש ביצירת ציוד וכלי נשק בשלב מאוחר של המשחק, בין המטילים שמסמנים את המעבר מתוכן המשחק הבסיסי לתוכן ההרחבות המתקדמות יותר.",
     "howToObtainHe": "נוצר בכבשנים מתקדמים ממחצבי קורלום ומרכיבים נלווים.",
     "sources": [{ "label": "Palworld Materials (via search aggregation) — Fextralife Materials category", "url": "https://palworld.wiki.fextralife.com/Materials" }],
     "lastVerifiedVersion": "1.0.1"
@@ -134,8 +134,8 @@
     "nameEn": "Soralite Ingot",
     "nameHe": "מטיל סורליט",
     "category": "material",
-    "descriptionHe": "מטיל ברמה גבוהה מאוד, קשור לתוכן ה-Sunreach שנוסף בעדכון 1.0.",
-    "howToObtainHe": "מותך מסורליט גולמי (הנכרה ב-Sunreach) בכבשן העתיק (Ancient Furnace).",
+    "descriptionHe": "מטיל ברמה גבוהה מאוד, קשור לתוכן ה-Sunreach שנוסף בעדכון 1.0. נדרש לציוד ולכדורים מהדרגות הגבוהות ביותר שנוספו יחד עם אזור זה, ולכן לא נגיש כלל לפני שמתקדמים לתוכן ה-1.0.",
+    "howToObtainHe": "מותך מסורליט גולמי (הנכרה ב-Sunreach, אזור האיים המרחפים) בכבשן העתיק (Ancient Furnace) — כבשן ייעודי שנוסף עם התוכן הזה.",
     "sources": [{ "label": "Playerauctions — Palworld 1.0 Complete Ore Location Guide", "url": "https://www.playerauctions.com/palworld-guide/tips-tricks/complete-ore-location-guide/" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -144,7 +144,7 @@
     "nameEn": "Paloxite Ingot",
     "nameHe": "מטיל פלוקסיט",
     "category": "material",
-    "descriptionHe": "אחד המטילים החזקים במשחק, קשור לתוכן עץ העולם (World Tree) שנוסף בעדכון 1.0.",
+    "descriptionHe": "אחד המטילים החזקים במשחק, קשור לתוכן עץ העולם (World Tree) שנוסף בעדכון 1.0. מתכונו משלב שני חומרים ייחודיים לאזורים המתקדמים (סורליט ופלוקסיט) יחד עם מים קדושים, מה שהופך אותו לאחד המטילים היקרים ביותר לייצור.",
     "howToObtainHe": "מיוצר מסורליט, פלוקסיט (הנכרה בעץ העולם) ומים קדושים.",
     "sources": [{ "label": "Playerauctions — Palworld 1.0 Complete Ore Location Guide", "url": "https://www.playerauctions.com/palworld-guide/tips-tricks/complete-ore-location-guide/" }],
     "lastVerifiedVersion": "1.0.1"
@@ -154,7 +154,7 @@
     "nameEn": "Carbon Fiber",
     "nameHe": "סיב פחמן",
     "category": "material",
-    "descriptionHe": "חומר קל-משקל וחזק, מרכיב נפוץ בציוד ובכדורי תפיסה מתקדמים כגון הכדור האולטימטיבי.",
+    "descriptionHe": "חומר קל-משקל וחזק, מרכיב נפוץ בציוד ובכדורי תפיסה מתקדמים כגון הכדור האולטימטיבי. מייצג את המעבר מחומרי גלם טבעיים (עץ, אבן, עפרות) לחומרים מעובדים תעשייתית בשלב הסופי של המשחק.",
     "howToObtainHe": "מיוצר בקווי ייצור מתקדמים; דורש רמת טכנולוגיה גבוהה יחסית לפתיחה.",
     "sources": [{ "label": "Sportskeeda — How to get Ultimate Sphere in Palworld", "url": "https://sportskeeda.com/mmo/how-get-ultimate-sphere-palworld" }],
     "lastVerifiedVersion": "1.0.1"
@@ -164,7 +164,7 @@
     "nameEn": "Plasteel",
     "nameHe": "פלסטיל",
     "category": "material",
-    "descriptionHe": "חומר טכנולוגי מתקדם המשלב חוזק גבוה עם משקל קל, בשימוש בציוד וכדורים מהשלב הסופי של המשחק.",
+    "descriptionHe": "חומר טכנולוגי מתקדם המשלב חוזק גבוה עם משקל קל, בשימוש בציוד וכדורים מהשלב הסופי של המשחק — כולל שריון פלסטיל, כדור אולטימטיבי וכדור אקזוטי. אחד החומרים המרכזיים ש\"מגשרים\" בין תוכן המשחק הבסיסי לתוכן ה-1.0 המתקדם.",
     "howToObtainHe": "מיוצר בקווי ייצור מתקדמים לאחר פתיחת המתכון בעץ הטכנולוגיה.",
     "sources": [{ "label": "palmods.gg — How to Get Exotic Sphere in Palworld 1.0", "url": "https://www.palmods.gg/guides/items/exotic-sphere" }],
     "lastVerifiedVersion": "1.0.1"
