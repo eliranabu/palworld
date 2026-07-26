@@ -1,0 +1,121 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ammo, spheres } from "@/lib/data";
+import type { Item } from "@/lib/types";
+
+export const metadata: Metadata = {
+  title: "מאגר פריטים | Palworld Hunter",
+  description: "כל פריטי המשחק Palworld מתורגמים לעברית, עם מקורות ותאריך אימות.",
+};
+
+const CATEGORY_LABELS: Record<string, string> = {
+  sphere: "כדורי תפיסה",
+  ammo: "תחמושת",
+  weapon: "נשקים",
+  armor: "שריון",
+  material: "חומרים",
+  consumable: "מתכלים",
+};
+
+function ItemCard({ item }: { item: Item }) {
+  return (
+    <article className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-white/20 hover:bg-white/[0.07]">
+      <header className="mb-2 flex items-baseline justify-between gap-3">
+        <h3 className="text-lg font-semibold text-zinc-50">{item.nameHe}</h3>
+        {item.tier !== undefined && (
+          <span className="shrink-0 rounded-full bg-amber-400/10 px-2.5 py-0.5 text-xs font-medium text-amber-300">
+            דרגה {item.tier}
+          </span>
+        )}
+      </header>
+      <p dir="ltr" className="mb-3 text-left text-xs text-zinc-500">
+        {item.nameEn}
+      </p>
+      <p className="mb-3 text-sm leading-relaxed text-zinc-300">{item.descriptionHe}</p>
+      <p className="mb-4 text-sm leading-relaxed text-zinc-400">
+        <span className="font-medium text-zinc-300">איך משיגים: </span>
+        {item.howToObtainHe}
+      </p>
+      <footer className="flex flex-wrap items-center justify-between gap-2 border-t border-white/10 pt-3 text-xs text-zinc-500">
+        <span>גרסה מאומתת: {item.lastVerifiedVersion}</span>
+        <span className="flex flex-wrap gap-2">
+          {item.sources.map((source) => (
+            <a
+              key={source.url}
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-dotted underline-offset-2 hover:text-amber-300"
+            >
+              מקור
+            </a>
+          ))}
+        </span>
+      </footer>
+    </article>
+  );
+}
+
+function ItemSection({ id, title, items: sectionItems }: { id: string; title: string; items: Item[] }) {
+  return (
+    <section id={id} className="mb-14 scroll-mt-24">
+      <div className="mb-5 flex items-center gap-3">
+        <h2 className="text-2xl font-bold text-zinc-50">{title}</h2>
+        <span className="text-sm text-zinc-500">{sectionItems.length} פריטים</span>
+      </div>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {sectionItems.map((item) => (
+          <ItemCard key={item.id} item={item} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+const PENDING_CATEGORIES = [
+  { label: "נשקים", count: "כ-25+" },
+  { label: "שריון", count: "90+" },
+  { label: "חומרים ומשאבים", count: "156" },
+  { label: "מתכלים ומזון", count: "295" },
+  { label: "מבנים", count: "טרם נסקר" },
+  { label: "פריטי מפתח", count: "טרם נסקר" },
+];
+
+export default function ItemsPage() {
+  return (
+    <div dir="rtl" lang="he" className="mx-auto w-full max-w-6xl px-6 py-16 sm:px-10">
+      <Link href="/" className="mb-8 inline-block text-sm text-zinc-400 hover:text-amber-300">
+        ← חזרה לדף הבית
+      </Link>
+
+      <header className="mb-12">
+        <h1 className="mb-3 text-4xl font-extrabold tracking-tight text-zinc-50">
+          מאגר פריטים
+        </h1>
+        <p className="max-w-2xl text-base leading-relaxed text-zinc-400">
+          כל פריט כאן מתורגם בקפידה לעברית תקינה, לצד השם המקורי באנגלית. ל-Palworld אין לוקליזציה
+          רשמית לעברית — זהו תרגום קהילתי, לא תרגום רשמי של המשחק. כל פריט כולל קישור למקור שממנו
+          נלקח המידע ואת גרסת המשחק שבה אומת לאחרונה.
+        </p>
+      </header>
+
+      <ItemSection id="spheres" title={CATEGORY_LABELS.sphere} items={spheres} />
+      <ItemSection id="ammo" title={CATEGORY_LABELS.ammo} items={ammo} />
+
+      <section className="rounded-2xl border border-dashed border-white/15 p-6">
+        <h2 className="mb-2 text-xl font-bold text-zinc-50">קטגוריות בהמתנה</h2>
+        <p className="mb-4 text-sm leading-relaxed text-zinc-400">
+          זהו השלב הראשון של מאגר הפריטים. הקטגוריות הבאות עדיין לא תורגמו ויתווספו בהמשך:
+        </p>
+        <ul className="grid grid-cols-2 gap-2 text-sm text-zinc-300 sm:grid-cols-3">
+          {PENDING_CATEGORIES.map((category) => (
+            <li key={category.label} className="rounded-lg bg-white/5 px-3 py-2">
+              {category.label}
+              <span className="mr-1 text-zinc-500"> ({category.count})</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  );
+}

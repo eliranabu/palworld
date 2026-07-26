@@ -58,3 +58,22 @@ export type HugeDragonEggZone = {
 export type MapMarker =
   | ({ kind: "legendary-pal" } & LegendaryPal)
   | ({ kind: "huge-dragon-egg-zone" } & HugeDragonEggZone);
+
+export type ItemCategory = "sphere" | "ammo" | "weapon" | "armor" | "material" | "consumable";
+
+/**
+ * Palworld has no official Hebrew localization, so `nameHe` is a careful
+ * fan translation, not an official in-game string. `nameEn` is kept
+ * alongside every entry so the original/official name is never lost.
+ */
+export type Item = {
+  id: string;
+  nameEn: string;
+  nameHe: string;
+  category: ItemCategory;
+  tier?: number;
+  descriptionHe: string;
+  howToObtainHe: string;
+  sources: SourceRef[];
+  lastVerifiedVersion: string;
+};
