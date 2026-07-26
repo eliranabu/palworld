@@ -2,6 +2,8 @@ import legendaryPalsRaw from "@/data/legendary-pals.json";
 import hugeDragonEggZonesRaw from "@/data/huge-dragon-egg-zones.json";
 import spheresRaw from "@/data/items/spheres.json";
 import ammoRaw from "@/data/items/ammo.json";
+import armorRaw from "@/data/items/armor.json";
+import materialsRaw from "@/data/items/materials.json";
 import type { HugeDragonEggZone, Item, LegendaryPal, MapMarker } from "@/lib/types";
 
 export const legendaryPals = legendaryPalsRaw as LegendaryPal[];
@@ -9,7 +11,9 @@ export const hugeDragonEggZones = hugeDragonEggZonesRaw as HugeDragonEggZone[];
 
 export const spheres = spheresRaw as Item[];
 export const ammo = ammoRaw as Item[];
-export const items: Item[] = [...spheres, ...ammo];
+export const armor = armorRaw as Item[];
+export const materials = materialsRaw as Item[];
+export const items: Item[] = [...spheres, ...ammo, ...armor, ...materials];
 
 export const mapMarkers: MapMarker[] = [
   ...legendaryPals.map((pal) => ({ kind: "legendary-pal" as const, ...pal })),

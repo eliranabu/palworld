@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CircleDot, Crosshair, Swords, Shield, Gem, Utensils, type LucideIcon } from "lucide-react";
-import { ammo, spheres } from "@/lib/data";
+import { ammo, armor, materials, spheres } from "@/lib/data";
 import type { Item, ItemCategory } from "@/lib/types";
 
 export const metadata: Metadata = {
@@ -99,8 +99,8 @@ function ItemSection({
 
 const PENDING_CATEGORIES = [
   { label: "נשקים", count: "כ-25+" },
-  { label: "שריון", count: "90+" },
-  { label: "חומרים ומשאבים", count: "156" },
+  { label: "שריון — שאר הווריאציות (נדירות, עמידות-חום/קור)", count: "70+" },
+  { label: "חומרים — עץ, אבן, מוצרי פאל, אבנים יקרות", count: "כ-140" },
   { label: "מתכלים ומזון", count: "295" },
   { label: "מבנים", count: "טרם נסקר" },
   { label: "פריטי מפתח", count: "טרם נסקר" },
@@ -126,11 +126,22 @@ export default function ItemsPage() {
 
       <ItemSection id="spheres" title={CATEGORY_LABELS.sphere} icon={CATEGORY_ICONS.sphere} items={spheres} />
       <ItemSection id="ammo" title={CATEGORY_LABELS.ammo} icon={CATEGORY_ICONS.ammo} items={ammo} />
+      <ItemSection id="armor" title={CATEGORY_LABELS.armor} icon={CATEGORY_ICONS.armor} items={armor} />
+      <ItemSection id="materials" title={CATEGORY_LABELS.material} icon={CATEGORY_ICONS.material} items={materials} />
+
+      <section className="mb-14 rounded-2xl border border-dashed border-white/15 p-6">
+        <h2 className="mb-2 text-lg font-semibold text-zinc-200">כיסוי חלקי בשלב זה</h2>
+        <p className="text-sm leading-relaxed text-zinc-400">
+          &quot;שריון&quot; כאן מכסה את 8 סטי השריון הבסיסיים ו-6 סוגי המגנים (14 פריטים) — לא את כל 90+
+          הווריאציות לפי נדירות ועמידות-חום/קור. &quot;חומרים&quot; מכסה עפרות ומטילים (17 פריטים) מתוך
+          כ-156 חומרים במשחק (כולל עץ, אבן, מוצרי פאל ואבנים יקרות שטרם נוספו).
+        </p>
+      </section>
 
       <section className="rounded-2xl border border-dashed border-white/15 p-6">
         <h2 className="mb-2 text-xl font-bold text-zinc-50">קטגוריות בהמתנה</h2>
         <p className="mb-4 text-sm leading-relaxed text-zinc-400">
-          זהו השלב הראשון של מאגר הפריטים. הקטגוריות הבאות עדיין לא תורגמו ויתווספו בהמשך:
+          זהו השלב השני של מאגר הפריטים. הקטגוריות הבאות עדיין לא תורגמו ויתווספו בהמשך:
         </p>
         <ul className="grid grid-cols-2 gap-2 text-sm text-zinc-300 sm:grid-cols-3">
           {PENDING_CATEGORIES.map((category) => (
