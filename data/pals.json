@@ -1,0 +1,344 @@
+[
+  {
+    "id": 1,
+    "name": "Lamball",
+    "types": ["neutral"],
+    "descriptionHe": "טיפוס על גבעה נוטה להסתיים בכך שהפאל הזה מתגלגל בחזרה למטה. הדבר גורם לו להסתחרר ולאבד את יכולת התנועה, מה שהופך אותו לקל לתפיסה ולהריגה. כתוצאה מכך, פאל זה התגלגל עד לתחתית שרשרת המזון.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 70, "defense": 70, "speedRun": 400, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "farming", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1000, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 2,
+    "name": "Cattiva",
+    "types": ["neutral"],
+    "descriptionHe": "במבט ראשון הוא נראה מלא ביטחון עצמי, אך למעשה הוא חלש ופחדן. להיות מתוסכל בידי קטיבה נחשב, במובנים רבים, לביזיון הגדול ביותר.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 70, "defense": 70, "speedRun": 400, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "gathering", "level": 1 },
+      { "type": "mining", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1000, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 3,
+    "name": "Chikipi",
+    "types": ["neutral"],
+    "descriptionHe": "חלש ביותר וטעים מדי לטובתו. הוא אחד הפאלים החלשים ביותר יחד עם למבול. לא משנה כמה ניצודים, הם פשוט ממשיכים להופיע.",
+    "stats": { "hp": 60, "attackMelee": 70, "attackRanged": 60, "defense": 60, "speedRun": 375, "stamina": 100 },
+    "suitability": [
+      { "type": "gathering", "level": 1 },
+      { "type": "farming", "level": 1 }
+    ],
+    "rarity": 1, "genus": "bird", "price": 1000, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 4,
+    "name": "Lifmunk",
+    "types": ["grass"],
+    "descriptionHe": "חכם כמו ילד אנושי בן חמש עד שבע. הוא שותף נפלא, אך היו לא מעט מקרים שבהם הרג את בעליו לאחר שלמד להשתמש בנשק.",
+    "stats": { "hp": 75, "attackMelee": 70, "attackRanged": 70, "defense": 70, "speedRun": 400, "stamina": 100 },
+    "suitability": [
+      { "type": "planting", "level": 1 },
+      { "type": "handiwork", "level": 1 },
+      { "type": "lumbering", "level": 1 },
+      { "type": "medicine_production", "level": 1 },
+      { "type": "gathering", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1010, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 5,
+    "name": "Foxparks",
+    "types": ["fire"],
+    "descriptionHe": "הוא חסר מיומנות בשליטה באש כבר מרגע לידתו, ונוטה להיחנק מהלהבות שהוא נושף בטעות. התעטשויות של פוקספארקס הן אחת הסיבות המובילות לשריפות יער.",
+    "stats": { "hp": 65, "attackMelee": 70, "attackRanged": 75, "defense": 70, "speedRun": 400, "stamina": 100 },
+    "suitability": [{ "type": "kindling", "level": 1 }],
+    "rarity": 1, "genus": "fourlegged", "price": 1040, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 6,
+    "name": "Fuack",
+    "types": ["water"],
+    "descriptionHe": "באמצעות מי גופו, פאל זה יכול ליצור גלים בכל מקום. הוא גולש על גופו כשהוא ממהר, אך המהירות הנוצרת מכך מסתיימת לא פעם בהתנגשות קטלנית.",
+    "stats": { "hp": 60, "attackMelee": 80, "attackRanged": 80, "defense": 60, "speedRun": 300, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "watering", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1120, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 7,
+    "name": "Sparkit",
+    "types": ["electric"],
+    "descriptionHe": "בעונת היובש, הפאל הזה נמצא תמיד על סף התפוצצות. ניצוצות עלולים לעוף בעקבות הכי קטנה, אפילו בין בעלי ברית.",
+    "stats": { "hp": 60, "attackMelee": 60, "attackRanged": 75, "defense": 70, "speedRun": 350, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "generating_electricity", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1030, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 8,
+    "name": "Tanzee",
+    "types": ["grass"],
+    "descriptionHe": "לפני זמן רב, פאל זה השתמש בחפצים ארוכים כמו ענפי עץ ככלי נשק. לאחר המגע עם בני אדם, הוא גילה משהו יעיל בהרבה: אקדחים.",
+    "stats": { "hp": 80, "attackMelee": 100, "attackRanged": 70, "defense": 70, "speedRun": 300, "stamina": 100 },
+    "suitability": [
+      { "type": "planting", "level": 1 },
+      { "type": "handiwork", "level": 1 },
+      { "type": "lumbering", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "gathering", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1280, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 9,
+    "name": "Rooby",
+    "types": ["fire"],
+    "descriptionHe": "רובי בר, למרבה ההפתעה, אף פעם לא חולה. אכילת חתיכת פחם אחת ביום, העשויה משריפת ענף, היא הסוד לבריאותו הנצחית.",
+    "stats": { "hp": 75, "attackMelee": 100, "attackRanged": 70, "defense": 75, "speedRun": 400, "stamina": 100 },
+    "suitability": [{ "type": "kindling", "level": 1 }],
+    "rarity": 2, "genus": "fourlegged", "price": 2950, "size": "s",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 10,
+    "name": "Pengullet",
+    "types": ["water", "ice"],
+    "descriptionHe": "נוצותיו של פאל זה כמעט ונעלמו לגמרי, אך לצערו, רצונו לעוף נותר חזק כתמיד. גם עכשיו הוא מנסה לעוף שוב בכל דרך אפשרית.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 75, "defense": 70, "speedRun": 500, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "watering", "level": 1 },
+      { "type": "cooling", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1080, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 11,
+    "name": "Penking",
+    "types": ["water", "ice"],
+    "descriptionHe": "למרבה ההפתעה, אין לו כל קשר לפנגולט. תמיד רוצה להיות במרכז תשומת הלב, הפאל הזה יתהדר בפני כל צופה.",
+    "stats": { "hp": 95, "attackMelee": 70, "attackRanged": 95, "defense": 95, "speedRun": 450, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 2 },
+      { "type": "transporting", "level": 2 },
+      { "type": "watering", "level": 2 },
+      { "type": "mining", "level": 2 },
+      { "type": "cooling", "level": 2 }
+    ],
+    "rarity": 6, "genus": "humanoid", "price": 5410, "size": "l",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 12,
+    "name": "Jolthog",
+    "types": ["electric"],
+    "descriptionHe": "משחרר את החשמל האגור בגופו כאשר הוא מותקף, ומייצר הלם חשמלי שיכול לעלות על 10 מיליון וולט. אם זורקים אותו, הוא עלול להיות קטלני אף יותר מכל נשק כבד קונבנציונלי.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 75, "defense": 70, "speedRun": 400, "stamina": 100 },
+    "suitability": [{ "type": "generating_electricity", "level": 1 }],
+    "rarity": 1, "genus": "fourlegged", "price": 1060, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 13,
+    "name": "Gumoss",
+    "types": ["grass", "ground"],
+    "descriptionHe": "פאל מוזר בעל גוף המזכיר שרף עץ. הוא מאבד כוח בהדרגה אם אין לו במה לכסות את גופו, ובסופו של דבר נרקב.",
+    "stats": { "hp": 70, "attackMelee": 100, "attackRanged": 70, "defense": 70, "speedRun": 300, "stamina": 100 },
+    "suitability": [{ "type": "planting", "level": 1 }],
+    "rarity": 1, "genus": "other", "price": 1310, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 14,
+    "name": "Vixy",
+    "types": ["neutral"],
+    "descriptionHe": "האליל של אי פלפגוס. אם תציק לוויקסי, כדאי שתהיה מוכן להיהפך לאויב של העולם כולו.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 70, "defense": 70, "speedRun": 350, "stamina": 100 },
+    "suitability": [
+      { "type": "gathering", "level": 1 },
+      { "type": "farming", "level": 1 }
+    ],
+    "rarity": 2, "genus": "fourlegged", "price": 1000, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 15,
+    "name": "Hoocrates",
+    "types": ["dark"],
+    "descriptionHe": "לעיתים קרובות שקוע במחשבות, הוא מתקשה לפעמים להירדם. \"אני חושב, משמע אני קיים.\"",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 70, "defense": 80, "speedRun": 380, "stamina": 100 },
+    "suitability": [{ "type": "gathering", "level": 1 }],
+    "rarity": 1, "genus": "bird", "price": 1050, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 16,
+    "name": "Teafant",
+    "types": ["water"],
+    "descriptionHe": "כמויות גדולות של מים נשפכות ממה שנחשב לאפו, אם כי יש הטוענים שזה בעצם רק ריר. הדבר עורר ויכוח עז בקרב חוקרי פאלים.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 60, "defense": 70, "speedRun": 300, "stamina": 100 },
+    "suitability": [{ "type": "watering", "level": 1 }],
+    "rarity": 1, "genus": "fourlegged", "price": 1000, "size": "m",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 17,
+    "name": "Depresso",
+    "types": ["dark"],
+    "descriptionHe": "יש לו מעט חברים בשל המבט הקודר הקבוע על פניו, אך למעשה הוא טוב לב. יש שראו אותו מאכיל ויקסי שתעו מהלהקה שלהם.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 70, "defense": 70, "speedRun": 300, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "mining", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1050, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 18,
+    "name": "Cremis",
+    "types": ["neutral"],
+    "descriptionHe": "בהשוואה ללמבול, יש לו צמר עדין יותר ואופי המתאים יותר לביות. עם זאת, מבחינה היסטורית הוא גודל כחיית מחמד. חמידות נחשבת אצלו למעלה.",
+    "stats": { "hp": 70, "attackMelee": 100, "attackRanged": 70, "defense": 75, "speedRun": 300, "stamina": 100 },
+    "suitability": [
+      { "type": "gathering", "level": 1 },
+      { "type": "farming", "level": 1 }
+    ],
+    "rarity": 1, "genus": "fourlegged", "price": 1420, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 19,
+    "name": "Daedream",
+    "types": ["dark"],
+    "descriptionHe": "הוא מרדים את מי שהוא מתעניין בו ומראה לו זרם אינסופי של חלומות מאושרים. מי שנופל בקסמו לא יתעורר עד שהמוות ייקח אותו.",
+    "stats": { "hp": 70, "attackMelee": 100, "attackRanged": 75, "defense": 60, "speedRun": 300, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "gathering", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1330, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 20,
+    "name": "Rushoar",
+    "types": ["ground"],
+    "descriptionHe": "פאל תוקפני ביותר, הוא לעיתים קרובות נכנס לקרבות לפני שהוא בוחן את כוחו של יריבו. למרות גודלו הקטן, מטענו העוצמתי מסוגל אפילו לשגר סלעים לאוויר.",
+    "stats": { "hp": 80, "attackMelee": 100, "attackRanged": 70, "defense": 70, "speedRun": 450, "stamina": 100 },
+    "suitability": [{ "type": "mining", "level": 1 }],
+    "rarity": 1, "genus": "fourlegged", "price": 1680, "size": "s",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 21,
+    "name": "Nox",
+    "types": ["dark"],
+    "descriptionHe": "אם אתה מוצא שערה של נוקס במצעים שלך, עדיף להשאיר אותה במקומה ולעזוב מיד. הרמתה היא כרטיס חד-כיווני ללילה שלא נגמר.",
+    "stats": { "hp": 75, "attackMelee": 70, "attackRanged": 85, "defense": 70, "speedRun": 300, "stamina": 100 },
+    "suitability": [{ "type": "gathering", "level": 1 }],
+    "rarity": 6, "genus": "fourlegged", "price": 1480, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 22,
+    "name": "Fuddler",
+    "types": ["ground"],
+    "descriptionHe": "טפריו הגדולים מתגאים בקשיחות דמוית יהלום. עם זאת, חידוד הטפרים צורך את רוב האנרגיה שלו, מה שגורם לו לעיתים לבלות ימים שלמים בלי לעשות דבר אחר.",
+    "stats": { "hp": 65, "attackMelee": 100, "attackRanged": 80, "defense": 50, "speedRun": 300, "stamina": 100 },
+    "suitability": [
+      { "type": "handiwork", "level": 1 },
+      { "type": "transporting", "level": 1 },
+      { "type": "mining", "level": 1 }
+    ],
+    "rarity": 1, "genus": "humanoid", "price": 1360, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 23,
+    "name": "Killamari",
+    "types": ["dark"],
+    "descriptionHe": "הוא עוטף את עצמו סביב ראשו של אויב ושואב את תוכו. מדי פעם נמצאות מומיות של פאלים, אך למעשה מדובר בקורבנות של קילאמרי.",
+    "stats": { "hp": 60, "attackMelee": 100, "attackRanged": 60, "defense": 70, "speedRun": 400, "stamina": 100 },
+    "suitability": [
+      { "type": "transporting", "level": 2 },
+      { "type": "gathering", "level": 1 }
+    ],
+    "rarity": 1, "genus": "other", "price": 1200, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 24,
+    "name": "Mau",
+    "types": ["dark"],
+    "descriptionHe": "זנבו הקשיח אינו מתפרק גם כאשר הוא נכרת. יש שהאמינו שזנבות כרותים אלו מביאים מזל טוב, אך עבור אינספור פרטי מאו שניצודו כתוצאה מכך, זה היה בדיוק ההפך.",
+    "stats": { "hp": 70, "attackMelee": 70, "attackRanged": 60, "defense": 70, "speedRun": 475, "stamina": 100 },
+    "suitability": [{ "type": "farming", "level": 1 }],
+    "rarity": 1, "genus": "fourlegged", "price": 1000, "size": "xs",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": 25,
+    "name": "Celaray",
+    "types": ["water"],
+    "descriptionHe": "רוכב על הרוח, פאל זה נודד לאן שהוא רוצה. אם ימצא בן זוג בדרך, המפגש יסמן את סוף מסעו.",
+    "stats": { "hp": 80, "attackMelee": 100, "attackRanged": 70, "defense": 80, "speedRun": 550, "stamina": 100 },
+    "suitability": [
+      { "type": "transporting", "level": 1 },
+      { "type": "watering", "level": 1 }
+    ],
+    "rarity": 3, "genus": "other", "price": 2860, "size": "m",
+    "sources": [{ "label": "palworld-paldex-api (MIT-licensed data)", "url": "https://github.com/mlg404/palworld-paldex-api" }],
+    "lastVerifiedVersion": "1.0.1"
+  }
+]

@@ -5,6 +5,7 @@ import { MobileNav } from "@/components/layout/MobileNav";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
+  { href: "/pals", label: "פאלים" },
   { href: "/locations", label: "מיקומים" },
   { href: "/items", label: "פריטים" },
   { href: "/map", label: "מפה" },

@@ -1,5 +1,5 @@
-import { items, legendaryPals, hugeDragonEggZones } from "@/lib/data";
-import { elementToHe } from "@/lib/labels";
+import { items, legendaryPals, hugeDragonEggZones, pals } from "@/lib/data";
+import { elementToHe, palTypeToHe } from "@/lib/labels";
 
 export type SearchDoc = {
   id: string;
@@ -38,5 +38,14 @@ export function buildSearchIndex(): SearchDoc[] {
     href: `/locations/eggs/${zone.id}`,
   }));
 
-  return [...itemDocs, ...palDocs, ...eggDocs];
+  const rosterDocs: SearchDoc[] = pals.map((pal) => ({
+    id: `palroster-${pal.id}`,
+    title: pal.name,
+    subtitle: pal.types.map(palTypeToHe).join(", "),
+    category: "פאל",
+    keywords: `פאל ${pal.types.map(palTypeToHe).join(" ")}`,
+    href: `/pals/${pal.id}`,
+  }));
+
+  return [...itemDocs, ...palDocs, ...eggDocs, ...rosterDocs];
 }

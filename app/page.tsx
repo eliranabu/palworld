@@ -1,9 +1,17 @@
 import Link from "next/link";
-import { Egg, MapPinned, Sparkles } from "lucide-react";
+import { Egg, MapPinned, PawPrint, Sparkles } from "lucide-react";
 import { FadeIn } from "@/components/motion/FadeIn";
-import { items, legendaryPals, hugeDragonEggZones } from "@/lib/data";
+import { items, legendaryPals, hugeDragonEggZones, pals } from "@/lib/data";
 
 const FEATURES = [
+  {
+    href: "/pals",
+    icon: PawPrint,
+    title: "פאלים",
+    titleEn: "Pals",
+    description: `${pals.length} פאלים עם סטטיסטיקות אמיתיות ותיאורים בעברית (מתוך 287 במשחק).`,
+    status: "live" as const,
+  },
   {
     href: "/items",
     icon: Sparkles,
