@@ -133,6 +133,12 @@ export function PalworldMap({ legendaryPals, hugeDragonEggZones }: Props) {
               </dl>
             )}
             <p className="mt-3 text-xs leading-relaxed text-zinc-500">{selected.data.notesHe}</p>
+            <a
+              href={`/locations/${selected.kind === "legendary-pal" ? "pals" : "eggs"}/${selected.data.id}`}
+              className="mt-3 inline-block text-xs text-amber-400 hover:underline"
+            >
+              פרטים מלאים ←
+            </a>
           </div>
         )}
       </div>

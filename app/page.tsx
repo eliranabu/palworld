@@ -13,7 +13,7 @@ const FEATURES = [
     status: "live" as const,
   },
   {
-    href: "/items",
+    href: "/locations",
     icon: Egg,
     title: "ביצי דרקון ענקיות ופאלים אגדיים",
     titleEn: "Legendary Pals & Huge Dragon Eggs",
