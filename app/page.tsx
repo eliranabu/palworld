@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Egg, MapPinned, Search, Sparkles } from "lucide-react";
+import { Egg, MapPinned, Sparkles } from "lucide-react";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { items, legendaryPals, hugeDragonEggZones } from "@/lib/data";
 
@@ -27,14 +27,6 @@ const FEATURES = [
     titleEn: "Interactive Map",
     description: "זום, סינון, ומיקומים על מפת ייחוס מעוצבת.",
     status: "live" as const,
-  },
-  {
-    href: "#",
-    icon: Search,
-    title: "חיפוש מהיר",
-    titleEn: "Instant Search",
-    description: "חיפוש מיידי בכל מאגר הנתונים.",
-    status: "soon" as const,
   },
 ];
 
@@ -87,6 +79,27 @@ export default function Home() {
             </FadeIn>
           );
         })}
+
+        <FadeIn delay={0.1 + FEATURES.length * 0.08}>
+          <div
+            dir="rtl"
+            className="flex h-full flex-col rounded-2xl border border-white/10 bg-white/5 p-6 text-right backdrop-blur-sm"
+          >
+            <div className="mb-4 flex items-center justify-between">
+              <Sparkles className="size-6 text-amber-400" aria-hidden="true" />
+              <kbd className="rounded border border-white/15 bg-white/5 px-2 py-0.5 text-xs text-zinc-400">
+                ⌘K
+              </kbd>
+            </div>
+            <h2 className="mb-1 text-lg font-bold text-zinc-50">חיפוש מהיר</h2>
+            <p dir="ltr" className="mb-2 text-left text-xs text-zinc-500">
+              Instant Search
+            </p>
+            <p className="text-sm leading-relaxed text-zinc-400">
+              לחצו ⌘K (או Ctrl+K) בכל עמוד באתר לחיפוש מיידי בכל מאגר הנתונים.
+            </p>
+          </div>
+        </FadeIn>
       </div>
     </main>
   );
