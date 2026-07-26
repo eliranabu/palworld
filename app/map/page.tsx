@@ -21,6 +21,38 @@ export default function MapPage() {
         </p>
       </header>
       <MapClient legendaryPals={legendaryPals} hugeDragonEggZones={hugeDragonEggZones} />
+
+      <div className="mt-6 flex flex-wrap items-center gap-x-8 gap-y-3 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-zinc-400">
+        <span className="font-semibold text-zinc-300">מקרא:</span>
+        <span className="flex items-center gap-2">
+          <span className="flex size-5 items-center justify-center rounded-full bg-amber-400 text-xs font-bold text-zinc-950">
+            ★
+          </span>
+          פאל אגדי — נקודה מדויקת
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="flex size-5 items-center justify-center rounded-full bg-red-400 text-xs font-bold text-zinc-950">
+            ◎
+          </span>
+          אזור ביצת דרקון ענקית — סמן קירוב, לא נקודה מדויקת
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="size-3 rounded-full bg-orange-700/70" />
+          וולקני
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="size-3 rounded-full bg-sky-200/70" />
+          שלג
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="size-3 rounded-full bg-amber-600/70" />
+          מדבר
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="size-3 rounded-full bg-teal-400/70" />
+          חוף
+        </span>
+      </div>
     </div>
   );
 }
