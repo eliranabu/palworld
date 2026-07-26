@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { CircleDot, Crosshair, Swords, Shield, Gem, Utensils, type LucideIcon } from "lucide-react";
 import { ammo, spheres } from "@/lib/data";
-import type { Item } from "@/lib/types";
+import type { Item, ItemCategory } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "מאגר פריטים | Palworld Hunter",
@@ -17,11 +18,24 @@ const CATEGORY_LABELS: Record<string, string> = {
   consumable: "מתכלים",
 };
 
+const CATEGORY_ICONS: Record<ItemCategory, LucideIcon> = {
+  sphere: CircleDot,
+  ammo: Crosshair,
+  weapon: Swords,
+  armor: Shield,
+  material: Gem,
+  consumable: Utensils,
+};
+
 function ItemCard({ item }: { item: Item }) {
+  const Icon = CATEGORY_ICONS[item.category];
   return (
     <article className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-white/20 hover:bg-white/[0.07]">
       <header className="mb-2 flex items-baseline justify-between gap-3">
-        <h3 className="text-lg font-semibold text-zinc-50">{item.nameHe}</h3>
+        <h3 className="flex items-center gap-2 text-lg font-semibold text-zinc-50">
+          <Icon className="size-4 shrink-0 text-amber-400/70" aria-hidden="true" />
+          {item.nameHe}
+        </h3>
         {item.tier !== undefined && (
           <span className="shrink-0 rounded-full bg-amber-400/10 px-2.5 py-0.5 text-xs font-medium text-amber-300">
             דרגה {item.tier}
@@ -56,10 +70,21 @@ function ItemCard({ item }: { item: Item }) {
   );
 }
 
-function ItemSection({ id, title, items: sectionItems }: { id: string; title: string; items: Item[] }) {
+function ItemSection({
+  id,
+  title,
+  icon: Icon,
+  items: sectionItems,
+}: {
+  id: string;
+  title: string;
+  icon: LucideIcon;
+  items: Item[];
+}) {
   return (
     <section id={id} className="mb-14 scroll-mt-24">
       <div className="mb-5 flex items-center gap-3">
+        <Icon className="size-6 text-amber-400" aria-hidden="true" />
         <h2 className="text-2xl font-bold text-zinc-50">{title}</h2>
         <span className="text-sm text-zinc-500">{sectionItems.length} פריטים</span>
       </div>
@@ -99,8 +124,8 @@ export default function ItemsPage() {
         </p>
       </header>
 
-      <ItemSection id="spheres" title={CATEGORY_LABELS.sphere} items={spheres} />
-      <ItemSection id="ammo" title={CATEGORY_LABELS.ammo} items={ammo} />
+      <ItemSection id="spheres" title={CATEGORY_LABELS.sphere} icon={CATEGORY_ICONS.sphere} items={spheres} />
+      <ItemSection id="ammo" title={CATEGORY_LABELS.ammo} icon={CATEGORY_ICONS.ammo} items={ammo} />
 
       <section className="rounded-2xl border border-dashed border-white/15 p-6">
         <h2 className="mb-2 text-xl font-bold text-zinc-50">קטגוריות בהמתנה</h2>
