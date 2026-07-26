@@ -1,0 +1,92 @@
+[
+  {
+    "id": "jetragon",
+    "name": "Jetragon",
+    "element": "Dragon",
+    "spawnType": "fixed",
+    "coords": { "x": -790, "y": -320 },
+    "region": "Mount Obsidian",
+    "biome": "Volcanic peak / high altitude",
+    "nearestFastTravel": "Mount Obsidian summit area",
+    "recommendedLevel": 50,
+    "threatLevel": "extreme",
+    "nearbyLandmarks": ["Ruined Fortress City", "Scorching Mineshaft"],
+    "notes": "The overworld's single fastest flying mount Pal. Spawns alone at a fixed point rather than randomly, so once found it can be farmed reliably on respawn. Bring strong ranged weapons and heat resistance for the surrounding volcanic terrain.",
+    "sources": [
+      { "label": "NextTier — Palworld Legendary Pal Locations", "url": "https://nexttier.pro/guide/palworld-legendary-pal-locations" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "frostallion",
+    "name": "Frostallion",
+    "element": "Ice",
+    "spawnType": "fixed",
+    "coords": { "x": -357, "y": 508 },
+    "region": "Astral Mountains",
+    "biome": "Frozen lake, snow biome",
+    "nearestFastTravel": "Land of Absolute Zero",
+    "recommendedLevel": 50,
+    "threatLevel": "extreme",
+    "nearbyLandmarks": ["Land of Absolute Zero", "Pristine Snowfield"],
+    "notes": "Spawns on the frozen lake east of the Land of Absolute Zero fast travel point. Extreme cold damage in the area — equip cold resistance armor before engaging.",
+    "sources": [
+      { "label": "Switchblade Gaming — Palworld Frostallion Guide", "url": "https://www.switchbladegaming.com/palworld/frostallion-guide/" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "paladius",
+    "name": "Paladius",
+    "element": "Neutral (Light)",
+    "spawnType": "fixed",
+    "coords": { "x": 446, "y": 680 },
+    "region": "Desiccated Desert",
+    "biome": "Desert ruins",
+    "nearestFastTravel": "Desiccated Desert region",
+    "recommendedLevel": 50,
+    "threatLevel": "extreme",
+    "nearbyLandmarks": ["Necromus spawn point (same area)"],
+    "notes": "Spawns together with Necromus in the same desert area — expect to fight both in the vicinity. Bring a full endgame loadout.",
+    "sources": [
+      { "label": "NextTier — Palworld Legendary Pal Locations", "url": "https://nexttier.pro/guide/palworld-legendary-pal-locations" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "necromus",
+    "name": "Necromus",
+    "element": "Dark",
+    "spawnType": "fixed",
+    "coords": { "x": 446, "y": 680 },
+    "region": "Desiccated Desert",
+    "biome": "Desert ruins",
+    "nearestFastTravel": "Desiccated Desert region",
+    "recommendedLevel": 50,
+    "threatLevel": "extreme",
+    "nearbyLandmarks": ["Paladius spawn point (same area)"],
+    "notes": "Shares its spawn area with Paladius. Dark-element attacks hit hard — bring Pals or gear with Dark resistance.",
+    "sources": [
+      { "label": "NextTier — Palworld Legendary Pal Locations", "url": "https://nexttier.pro/guide/palworld-legendary-pal-locations" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "blazamut",
+    "name": "Blazamut",
+    "element": "Fire",
+    "spawnType": "fixed",
+    "coords": { "x": -434, "y": -531 },
+    "region": "Scorching Mineshaft",
+    "biome": "Underground dungeon (volcanic)",
+    "nearestFastTravel": "Scorching Mineshaft entrance, near Mount Obsidian",
+    "recommendedLevel": 49,
+    "threatLevel": "extreme",
+    "nearbyLandmarks": ["Mount Obsidian"],
+    "notes": "Unlike the other Legendary Pals, Blazamut (a level 49 Alpha) is found inside the Scorching Mineshaft dungeon rather than in the open world — the marker here is the cave entrance, not the boss room itself. Bring heat resistant clothing and a light source (Torch or Fire-element Pal).",
+    "sources": [
+      { "label": "dotesports — Blazamut boss fight location in Palworld", "url": "https://dotesports.com/palworld/news/blazamut-boss-fight-location-in-palworld" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  }
+]

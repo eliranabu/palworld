@@ -1,0 +1,95 @@
+[
+  {
+    "id": "fishing-village-obsidian",
+    "name": "Fishing Village North Ridge",
+    "spawnType": "zone",
+    "anchorCoords": { "x": 813, "y": -569 },
+    "anchorLandmark": "North of Fishing Village, near Mount Obsidian",
+    "region": "Mount Obsidian foothills",
+    "biome": "Rocky highland",
+    "terrain": "High-altitude ridge above a coastal fishing settlement",
+    "possibleHatches": ["Relaxaurus", "Jormuntide Ignis", "Jetragon", "Astegon", "Aegidron"],
+    "recommendedLevel": 35,
+    "threatLevel": "high",
+    "notes": "A specific Huge Dragon Egg has been reported at this anchor point, but like all egg spawns its exact location resets and is not guaranteed on every visit — treat this as a high-probability hotspot, not a fixed marker.",
+    "sources": [
+      { "label": "dotesports — Where to find Huge Dragon Egg in Palworld", "url": "https://dotesports.com/palworld/news/where-to-find-huge-dragon-egg-in-palworld" },
+      { "label": "DualShockers — Palworld: Where To Find Huge Dragon Eggs", "url": "https://www.dualshockers.com/palworld-huge-dragon-eggs-locations/" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "ruined-fortress-city",
+    "name": "Ruined Fortress City",
+    "spawnType": "zone",
+    "anchorCoords": { "x": -562, "y": -246 },
+    "anchorLandmark": "Ruined Fortress City (atop Mount Obsidian)",
+    "region": "Mount Obsidian",
+    "biome": "Volcanic ruins, extreme heat",
+    "terrain": "Sprawling abandoned fortress with drum towers and sandstone walls",
+    "possibleHatches": ["Relaxaurus", "Jormuntide Ignis", "Jetragon", "Astegon", "Aegidron"],
+    "recommendedLevel": 35,
+    "threatLevel": "high",
+    "notes": "Abandoned settlements like this one are commonly cited as good exploration spots for rare eggs. Heat resistant armor is essential here regardless of egg hunting.",
+    "sources": [
+      { "label": "GameSkinny — Where to Find Huge Eggs in Palworld", "url": "https://www.gameskinny.com/tips/where-to-find-huge-eggs-in-palworld-locations-with-maps-and-coordinates/" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "fishermans-point-beach",
+    "name": "Fisherman's Point Beach",
+    "spawnType": "zone",
+    "anchorCoords": { "x": -456, "y": -759 },
+    "anchorLandmark": "Fisherman's Point fast travel point",
+    "region": "Southwestern coast",
+    "biome": "Coastal beach",
+    "terrain": "Open shoreline beside the Fisherman's Point settlement",
+    "possibleHatches": ["Relaxaurus", "Jormuntide Ignis", "Jetragon", "Azurobe", "Chillet"],
+    "recommendedLevel": 30,
+    "threatLevel": "moderate",
+    "notes": "Reported as a recurring huge-egg spawn beach. A flying mount helps since the surrounding coastline is broken up by water crossings.",
+    "sources": [
+      { "label": "GameSkinny — Where to Find Huge Eggs in Palworld", "url": "https://www.gameskinny.com/tips/where-to-find-huge-eggs-in-palworld-locations-with-maps-and-coordinates/" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "quivern-sealed-realm",
+    "name": "Sealed Realm of the Winged Tyrant Approach",
+    "spawnType": "zone",
+    "anchorCoords": { "x": -256, "y": -131 },
+    "anchorLandmark": "Sealed Realm of the Winged Tyrant (Quivern's dungeon)",
+    "region": "Central Palpagos Islands",
+    "biome": "Grassland with rocky outcrops",
+    "terrain": "Open ground near a Relaxaurus grouping, close to the Quivern dungeon entrance",
+    "possibleHatches": ["Relaxaurus", "Jormuntide Ignis", "Jetragon", "Azurobe"],
+    "recommendedLevel": 30,
+    "threatLevel": "moderate",
+    "notes": "A player-reported cluster of three Huge Dragon Eggs was found near a group of Relaxaurus close to this fast travel point. Quivern itself is a strong flying mount candidate for reaching this area quickly.",
+    "sources": [
+      { "label": "DualShockers — Palworld: Where To Find Huge Dragon Eggs", "url": "https://www.dualshockers.com/palworld-huge-dragon-eggs-locations/" },
+      { "label": "GamesOMG — Palworld Quivern Weakness & Drops", "url": "https://gamesomg.com/palworld-quivern-boss-strategy-and-coordinates/" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "astral-mountains-peaks",
+    "name": "Astral Mountains High Peaks",
+    "spawnType": "zone",
+    "anchorCoords": { "x": -357, "y": 508 },
+    "anchorLandmark": "Land of Absolute Zero (near the Frostallion frozen lake)",
+    "region": "Astral Mountains",
+    "biome": "Snow-covered high altitude",
+    "terrain": "Cliffsides and stone peaks blanketed in permanent snowfall",
+    "possibleHatches": ["Relaxaurus", "Jormuntide Ignis", "Jetragon", "Astegon", "Frostallion (extremely rare)"],
+    "recommendedLevel": 40,
+    "threatLevel": "high",
+    "notes": "General guides consistently point to the Astral Mountains' cliff edges and stone peaks as prime Huge Dragon Egg territory, without a single confirmed pinpoint — this anchor uses the well-documented Land of Absolute Zero fast travel point as the nearest reliable reference. Cold resistance gear is mandatory.",
+    "sources": [
+      { "label": "Sportskeeda — How to get Huge Dragon Egg in Palworld", "url": "https://sportskeeda.com/mmo/how-get-huge-dragon-egg-palworld" },
+      { "label": "Switchblade Gaming — Palworld Frostallion Guide", "url": "https://www.switchbladegaming.com/palworld/frostallion-guide/" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  }
+]
