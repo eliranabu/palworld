@@ -5,10 +5,11 @@
     "nameHe": "כדור פאל בסיסי",
     "category": "sphere",
     "tier": 1,
-    "descriptionHe": "כדור התפיסה הבסיסי ביותר במשחק. סיכויי תפיסה נמוכים יחסית, אך זול וקל לייצור כבר בשלב ההתחלתי.",
-    "howToObtainHe": "נוצר במתקן היצירה הבסיסי (Primitive Workbench) ממעט פלדיום גולמי ועץ.",
+    "descriptionHe": "כדור התפיסה הבסיסי ביותר במשחק, וגם הפריט הראשון שכל שחקן חדש יוצר. מנגנון התפיסה ב-Palworld מבוסס על ערך שנקרא \"עוצמת תפיסה\" (Capture Power) — ככל שהכדור מתקדם יותר, עוצמת התפיסה שלו גבוהה יותר, וכך גדל הסיכוי להצליח לתפוס פאל בכל זריקה. כדור פאל בסיסי הוא בעל עוצמת התפיסה הנמוכה ביותר מכל הכדורים, ולכן יעיל בעיקר כנגד פאלים חלשים וברמה נמוכה בשלב הפתיחה של המשחק — כנגד פאלים חזקים או ברמה גבוהה הסיכוי לתפיסה מוצלחת צונח משמעותית.",
+    "howToObtainHe": "נוצר במתקן היצירה הבסיסי (Primitive Workbench) — המתקן הראשון שזמין לשחקן — ממעט שברי פלדיום גולמי ועץ. אינו דורש כלל פתיחת טכנולוגיה מראש, כך שאפשר לייצר אותו כבר בדקות הראשונות של המשחק.",
     "sources": [
-      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" },
+      { "label": "Palworld Wiki (wiki.gg) — Capture Power", "url": "https://palworld.wiki.gg/wiki/Capture_Power" }
     ],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -18,10 +19,11 @@
     "nameHe": "כדור מגה",
     "category": "sphere",
     "tier": 2,
-    "descriptionHe": "שדרוג לכדור הבסיסי עם סיכויי תפיסה גבוהים יותר, מתאים לשלבים המוקדמים-בינוניים של המשחק.",
-    "howToObtainHe": "נוצר בשולחן העבודה לכדורים (Sphere Workbench) לאחר פתיחתו בעץ הטכנולוגיה.",
+    "descriptionHe": "השדרוג הראשון לכדור הבסיסי, עם עוצמת תפיסה גבוהה יותר בהשוואה לכדור הפאל הרגיל. זהו הכדור הסטנדרטי לשימוש יומיומי בשלב המוקדם-בינוני של המשחק, לאחר שכדור הפאל הבסיסי מפסיק להספיק כנגד פאלים ברמה עולה. בניגוד לכדור הבסיסי, הוא כבר דורש פתיחת מתכון בעץ הטכנולוגיה.",
+    "howToObtainHe": "נוצר בשולחן העבודה לכדורים (Sphere Workbench) לאחר פתיחתו ברמת טכנולוגיה 14. מתכון היצירה: שבר פלדיום אחד, מטיל מתכת אחד, 5 יחידות עץ ו-5 יחידות אבן.",
     "sources": [
-      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" },
+      { "label": "pindrop.gg — Mega Sphere: How to Craft & Capture Rate", "url": "https://pindrop.gg/palworld/items/mega-sphere" }
     ],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -31,10 +33,11 @@
     "nameHe": "כדור גיגה",
     "category": "sphere",
     "tier": 3,
-    "descriptionHe": "כדור בדרגת ביניים-גבוהה, נדרש בדרך כלל כדי לתפוס פאלים חזקים יותר באמצע המשחק.",
-    "howToObtainHe": "נוצר בשולחן העבודה לכדורים או בקו ההרכבה לכדורים (Sphere Assembly Line) לאחר פתיחת המתכון.",
+    "descriptionHe": "כדור בדרגת ביניים-גבוהה עם עוצמת תפיסה של 20 — משמעותית גבוה יותר מהכדורים הבסיסיים. נדרש בדרך כלל כדי לתפוס ביעילות פאלים חזקים יותר באמצע המשחק, במיוחד כאלה שכבר ברמה דו-ספרתית גבוהה. שימוש בכדור מתאים לרמת הפאל (לא נמוך מדי) מעניק בונוס נוסף לאחוזי ההצלחה, בעוד שכדור חלש מדי כנגד פאל חזק מקנה קנס לסיכויי התפיסה.",
+    "howToObtainHe": "נוצר בשולחן העבודה לכדורים או בקו ההרכבה לכדורים (Sphere Assembly Line) לאחר פתיחת המתכון בעץ הטכנולוגיה.",
     "sources": [
-      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" },
+      { "label": "Palworld Wiki (wiki.gg) — Capture Power", "url": "https://palworld.wiki.gg/wiki/Capture_Power" }
     ],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -44,10 +47,11 @@
     "nameHe": "כדור היפר",
     "category": "sphere",
     "tier": 4,
-    "descriptionHe": "כדור מתקדם עם סיכויי תפיסה גבוהים, שימושי כנגד פאלים נדירים ובעלי רמה גבוהה.",
+    "descriptionHe": "כדור מתקדם עם עוצמת תפיסה של 26, מדרגה משמעותית מעל כדור הגיגה. שימושי כנגד פאלים נדירים ובעלי רמה גבוהה, ובמיוחד יעיל כשמשלבים אותו עם טקטיקות שמעלות את סיכויי התפיסה — כמו הורדת אחוז הבריאות של הפאל לפני הזריקה, זריקה מהגב (המעניקה בונוס של עד כ-20% תלוי ברמת הפאל), או פגיעה בפאלים שרגישים לסטטוסים כמו הצתה או הלם.",
     "howToObtainHe": "נוצר בקו ההרכבה לכדורים לאחר פתיחת המתכון בעץ הטכנולוגיה.",
     "sources": [
-      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" },
+      { "label": "Palworld Wiki (wiki.gg) — Capture Power", "url": "https://palworld.wiki.gg/wiki/Capture_Power" }
     ],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -57,10 +61,11 @@
     "nameHe": "כדור אולטרה",
     "category": "sphere",
     "tier": 5,
-    "descriptionHe": "אחד הכדורים החזקים בשלב הרגיל של המשחק, בעל סיכויי תפיסה גבוהים מאוד גם כנגד פאלים קשוחים.",
-    "howToObtainHe": "נוצר בקו ההרכבה לכדורים; דורש חומרים מתקדמים יותר ממתכות ומפלדיום.",
+    "descriptionHe": "אחד הכדורים החזקים בשלב הרגיל (הלא-אגדי) של המשחק, עם עוצמת תפיסה של 32. בעל סיכויי תפיסה גבוהים מאוד גם כנגד פאלים קשוחים ברמות גבוהות, כולל רוב הבוסים והאלפא-פאלים שנתקלים בהם באזורים המתקדמים של המפה. שחקנים רבים ממשיכים להשתמש בכדור זה כברירת מחדל גם בשלבים המתקדמים, כשהכדור האגדי נשמר למקרים הקריטיים ביותר בגלל עלות הייצור הגבוהה שלו.",
+    "howToObtainHe": "נוצר בקו ההרכבה לכדורים; דורש חומרים מתקדמים יותר ממתכות ומפלדיום בהשוואה לדרגות הקודמות.",
     "sources": [
-      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" },
+      { "label": "Palworld Wiki (wiki.gg) — Capture Power", "url": "https://palworld.wiki.gg/wiki/Capture_Power" }
     ],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -70,10 +75,11 @@
     "nameHe": "כדור אגדי",
     "category": "sphere",
     "tier": 6,
-    "descriptionHe": "כדור בדרגה גבוהה מאוד המיועד לתפיסת פאלים אגדיים וחזקים במיוחד לקראת סוף המשחק.",
+    "descriptionHe": "כדור בדרגה גבוהה מאוד עם עוצמת תפיסה של 37 — הגבוה ביותר מבין כדורי ה\"עולם הרגיל\" (לפני התוספים Feybreak ו-Sunreach). מיועד לתפיסת פאלים אגדיים וחזקים במיוחד לקראת סוף המשחק, כולל הפאלים האגדיים בעולם הפתוח שרמתם גבוהה מאוד וההגנה הטבעית שלהם כנגד תפיסה משמעותית. בגלל עלות הייצור הגבוהה, שחקנים רבים שומרים אותו ספציפית למטרות תפיסה קריטיות ולא לשימוש שוטף.",
     "howToObtainHe": "נוצר בקו ההרכבה לכדורים המתקדם, לאחר פתיחת מתכון ברמת טכנולוגיה גבוהה.",
     "sources": [
-      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" },
+      { "label": "Palworld Wiki (wiki.gg) — Capture Power", "url": "https://palworld.wiki.gg/wiki/Capture_Power" }
     ],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -83,8 +89,8 @@
     "nameHe": "כדור אולטימטיבי",
     "category": "sphere",
     "tier": 7,
-    "descriptionHe": "כדור ברמה גבוהה שנוסף בעדכון 1.0, מיועד לשלב המתקדם של המשחק לאחר פתיחת האזורים העל-עולמיים.",
-    "howToObtainHe": "דורש רמת טכנולוגיה 51 (5 נקודות טכנולוגיה) לפתיחה. מתכון ליצירת כדור אחד: 20 שברי פלדיום, 10 מטילי מתכת-פאל, 5 סיבי פחמן, 5 פלסטיל.",
+    "descriptionHe": "כדור ברמה גבוהה שנוסף בעדכון 1.0 יחד עם תוכן ה-Sunreach, מיועד לשלב המתקדם ביותר של המשחק לאחר פתיחת האזורים העל-עולמיים (הרי הים המרחפים). עוצמת התפיסה שלו גבוהה מכל כדורי העולם הרגיל, כולל הכדור האגדי, ומיועד בעיקר לפאלים החדשים והחזקים שנוספו באזורי ה-Sunreach ועץ העולם.",
+    "howToObtainHe": "דורש רמת טכנולוגיה 51 (5 נקודות טכנולוגיה) לפתיחה. מתכון ליצירת כדור אחד: 20 שברי פלדיום, 10 מטילי מתכת-פאל, 5 סיבי פחמן, 5 פלסטיל — עלות ייצור גבוהה יחסית, ולכן כדאי לייצר אותו במנות קטנות לפי הצורך.",
     "sources": [
       { "label": "Game8 — How to Get Ultimate Sphere", "url": "https://sportskeeda.com/mmo/how-get-ultimate-sphere-palworld" }
     ],
@@ -96,7 +102,7 @@
     "nameHe": "כדור אקזוטי",
     "category": "sphere",
     "tier": 8,
-    "descriptionHe": "כדור נדיר שנוסף בעדכון Feybreak, מיועד לתפיסת הפאלים החזקים ביותר שניתנים לתפיסה במשחק הרגיל.",
+    "descriptionHe": "כדור נדיר שנוסף בעדכון Feybreak, מיועד לתפיסת הפאלים החזקים ביותר שניתנים לתפיסה במשחק הרגיל — כולל תושבי אזור הביצה הרעילה של Feybreak, שרבים מהם עמידים במיוחד לתפיסה. אחד ממרכיבי המתכון שלו, ההקסוליט, הוא חומר ייחודי לאזור Feybreak, כך שיש לבקר שם לפני שניתן לייצר אותו כלל.",
     "howToObtainHe": "דורש רמת טכנולוגיה 58 (5 נקודות טכנולוגיה) לפתיחה. מתכון ליצירת כדור אחד: 15 שברי פלדיום, 1 פלסטיל, 10 עץ קשה, 1 הקסוליט.",
     "sources": [
       { "label": "palmods.gg — How to Get Exotic Sphere in Palworld 1.0", "url": "https://www.palmods.gg/guides/items/exotic-sphere" }
@@ -109,8 +115,8 @@
     "nameHe": "כדור סול",
     "category": "sphere",
     "tier": 9,
-    "descriptionHe": "כדור באיכות גבוהה מתקופת ציוויליזציה עתיקה, מתואר במשחק כמי שאיפשר דו-קיום עם הפאלים. אינו ניתן ליצירה בשולחן עבודה.",
-    "howToObtainHe": "לא נרכש ממוכרים ואינו מופל מאויבים. מתקבל כמציאה בהריסות, בערמות גרוטאות ובתיבות אוצר באי המרחף (Floating Island).",
+    "descriptionHe": "כדור באיכות גבוהה מתקופת ציוויליזציה עתיקה, מתואר במשחק כמי שאיפשר דו-קיום עם הפאלים. בשונה מכל שאר הכדורים ברשימה, אינו ניתן ליצירה בשום שולחן עבודה — הוא פריט \"מציאה\" בלבד, מה שהופך אותו לנדיר משמעותית ומגביל את הכמות שניתן לצבור ממנו לכמות שנמצאת בפועל באזור אי המרחף.",
+    "howToObtainHe": "לא נרכש ממוכרים ואינו מופל מאויבים. מתקבל כמציאה בהריסות, בערמות גרוטאות ובתיבות אוצר באי המרחף (Floating Island) — כדאי לחפש בשיטתיות באזור זה ולא להסתמך על מקור קבוע אחד.",
     "sources": [
       { "label": "Palworld Wiki (wiki.gg) — Sol Sphere", "url": "https://palworld.wiki.gg/wiki/Sol_Sphere" }
     ],
@@ -122,8 +128,8 @@
     "nameHe": "כדור עתיק",
     "category": "sphere",
     "tier": 10,
-    "descriptionHe": "הכדור החזק ביותר במשחק — תואר כיצירתה של ציוויליזציה עתיקה ואגדית שהוטענה בכוחו של עץ העולם (World Tree). נדיר יותר מכדור הסול.",
-    "howToObtainHe": "לא ניתן ליצירה. מתקבל אך ורק מתוך תיבות אוצר באי המרחף (Floating Island) — לא נמצא בערמות גרוטאות או במשלוחים שנפלו.",
+    "descriptionHe": "הכדור החזק והנדיר ביותר במשחק — תואר כיצירתה של ציוויליזציה עתיקה ואגדית שהוטענה בכוחו של עץ העולם (World Tree). נדיר יותר אפילו מכדור הסול: בעוד שכדור הסול נמצא במספר סוגי מציאות באי המרחף, הכדור העתיק מוגבל אך ורק לתיבות אוצר, מה שהופך כל פרט ממנו למשאב יקר ערך שכדאי לשריין לתפיסות הקריטיות ביותר במשחק.",
+    "howToObtainHe": "לא ניתן ליצירה בשום שולחן עבודה. מתקבל אך ורק מתוך תיבות אוצר באי המרחף (Floating Island) — לא נמצא בערמות גרוטאות, במשלוחים שנפלו, או אצל מוכרים.",
     "sources": [
       { "label": "Palworld Fandom — Ancient Sphere", "url": "https://palworld.fandom.com/wiki/Ancient_Sphere" }
     ],

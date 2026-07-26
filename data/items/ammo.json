@@ -4,8 +4,8 @@
     "nameEn": "Arrow",
     "nameHe": "חץ",
     "category": "ammo",
-    "descriptionHe": "החץ הבסיסי במשחק, משמש עם קשתות פרימיטיביות ורגילות כגון הקשת הישנה, קשת שלושת החצים והקשת-רובה.",
-    "howToObtainHe": "נוצר בשולחן הנשק (Weapon Workbench) מעץ וחומרים בסיסיים.",
+    "descriptionHe": "החץ הבסיסי במשחק ואחת מאפשרויות התחמושת הראשונות שזמינות לשחקן. משמש עם קשתות פרימיטיביות ורגילות כגון הקשת הישנה, קשת שלושת החצים והקשת-רובה. יתרונו העיקרי הוא שקט — קשתות אינן מתריעות על אויבים סמוכים כמו נשק חם, מה שהופך את החץ הבסיסי לבחירה טובה לציד חמקני בשלב המוקדם.",
+    "howToObtainHe": "נוצר בשולחן הנשק (Weapon Workbench) מעץ וחומרים בסיסיים, זמין כבר בתחילת המשחק.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Arrow", "url": "https://palworld.wiki.gg/wiki/Arrow" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -14,8 +14,8 @@
     "nameEn": "Fire Arrow",
     "nameHe": "חץ אש",
     "category": "ammo",
-    "descriptionHe": "חץ עם נזק אש, משמש עם הקשת-אש ועם קשת-רובה לחצי אש.",
-    "howToObtainHe": "נוצר בשולחן הנשק לאחר פתיחת המתכון.",
+    "descriptionHe": "חץ עם נזק אש נוסף מעבר לנזק הפיזי הרגיל, משמש עם הקשת-אש ועם קשת-רובה לחצי אש. יעיל במיוחד כנגד פאלים ואויבים בעלי חולשה ליסוד אש, וגם כדי להצית עצי דלק ומבנים ברי-שריפה מרחוק.",
+    "howToObtainHe": "נוצר בשולחן הנשק לאחר פתיחת המתכון בעץ הטכנולוגיה.",
     "sources": [{ "label": "Palworld Fandom — Arrows", "url": "https://palworld.fandom.com/wiki/Arrows" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -24,7 +24,7 @@
     "nameEn": "Poison Arrow",
     "nameHe": "חץ רעל",
     "category": "ammo",
-    "descriptionHe": "חץ עם אפקט הרעלה, משמש עם קשת-הרעל ועם קשת-רובה לחצי רעל.",
+    "descriptionHe": "חץ עם אפקט הרעלה, משמש עם קשת-הרעל ועם קשת-רובה לחצי רעל. ההרעלה גורמת לנזק מתמשך לאורך זמן גם לאחר הפגיעה הראשונית, מה שהופך אותו לשימושי כנגד יעדים בעלי בריאות גבוהה שקשה להפיל בפגיעה בודדת.",
     "howToObtainHe": "נוצר בשולחן הנשק לאחר פתיחת המתכון.",
     "sources": [{ "label": "Palworld Fandom — Arrows", "url": "https://palworld.fandom.com/wiki/Arrows" }],
     "lastVerifiedVersion": "1.0.1"
@@ -34,7 +34,7 @@
     "nameEn": "Reinforced Arrow",
     "nameHe": "חץ מחוזק",
     "category": "ammo",
-    "descriptionHe": "חץ ברמה גבוהה יותר לקשתות מתקדמות, כגון הקשת המשולבת והקשת המתקדמת.",
+    "descriptionHe": "חץ ברמה גבוהה יותר עם נזק פיזי משופר, מיועד לקשתות מתקדמות כגון הקשת המשולבת והקשת המתקדמת. מהווה את המשך הטבעי של החץ הרגיל עבור שחקנים שממשיכים לפתח מסלול קשתות לאורך המשחק במקום לעבור לנשק חם.",
     "howToObtainHe": "נוצר בשולחן הנשק המתקדם לאחר פתיחת המתכון.",
     "sources": [{ "label": "Sportskeeda — All arrows in Palworld and how to craft them", "url": "https://www.sportskeeda.com/mmo/all-arrows-palworld-craft" }],
     "lastVerifiedVersion": "1.0.1"
@@ -44,7 +44,7 @@
     "nameEn": "Handgun Ammo",
     "nameHe": "תחמושת לאקדח",
     "category": "ammo",
-    "descriptionHe": "תחמושת בסיסית לנשק חם, משמשת אקדחים כמו המוסקט והאקדח המאולתר.",
+    "descriptionHe": "תחמושת בסיסית לנשק חם, משמשת אקדחים כמו המוסקט והאקדח המאולתר. זהו לרוב הצעד הראשון של השחקן במעבר מקשתות לנשק חם — נזק גבוה יותר לפגיעה בודדת בהשוואה לחץ הבסיסי, אך בעלות ייצור וקול ירי רועש יותר שמתריע על נוכחות בסביבה.",
     "howToObtainHe": "נוצרת בשולחן הנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -54,7 +54,7 @@
     "nameEn": "Rifle Ammo",
     "nameHe": "תחמושת לרובה",
     "category": "ammo",
-    "descriptionHe": "תחמושת סטנדרטית לרובים, כולל הרובה הבודד-ירייה ודומיו.",
+    "descriptionHe": "תחמושת סטנדרטית לרובים, כולל הרובה הבודד-ירייה ודומיו. מדרגת ביניים מבחינת נזק וטווח — מדויקת יותר מתחמושת אקדח לטווח בינוני-רחוק, אך עדיין נחשבת לתחמושת \"רגילה\" בהשוואה לרמות המתקדמות יותר בעץ הטכנולוגיה.",
     "howToObtainHe": "נוצרת בשולחן הנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -64,8 +64,8 @@
     "nameEn": "Assault Rifle Ammo",
     "nameHe": "תחמושת לרובה סער",
     "category": "ammo",
-    "descriptionHe": "תחמושת לרובה הסער ולנשקים אוטומטיים דומים ברמה בינונית-גבוהה.",
-    "howToObtainHe": "נוצרת בקו ההרכבה לנשק (Weapon Assembly Line).",
+    "descriptionHe": "תחמושת לרובה הסער ולנשקים אוטומטיים דומים ברמה בינונית-גבוהה. קצב ירי גבוה מציע כמות נזק כוללת גדולה לאורך זמן קצר, שימושי במיוחד כנגד קבוצות אויבים או פאלים בעלי בריאות בינונית שדורשים כמה פגיעות רצופות.",
+    "howToObtainHe": "נוצרת בקו ההרכבה לנשק (Weapon Assembly Line), הדורש רמת טכנולוגיה גבוהה יותר משולחן הנשק הרגיל.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -74,7 +74,7 @@
     "nameEn": "Machine Gun Ammo",
     "nameHe": "תחמושת למקלע",
     "category": "ammo",
-    "descriptionHe": "תחמושת לנשקים אוטומטיים מסוג מקלע, קצב ירי גבוה.",
+    "descriptionHe": "תחמושת לנשקים אוטומטיים מסוג מקלע, בעלי קצב ירי גבוה מאוד. מתאימה בעיקר לחיסול מהיר של קבוצות אויבים גדולות או לפגיעה מרוכזת בבוסים בעלי כמות בריאות רבה, במחיר צריכת תחמושת גבוהה מאוד בקצב.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -84,7 +84,7 @@
     "nameEn": "Magnum Ammo",
     "nameHe": "תחמושת למגנום",
     "category": "ammo",
-    "descriptionHe": "תחמושת עוצמתית לאקדח המגנום, נזק גבוה ליריעה.",
+    "descriptionHe": "תחמושת עוצמתית לאקדח המגנום, נזק גבוה משמעותית ליריעה בודדת בהשוואה לתחמושת אקדח רגילה, אך בקצב ירי איטי יותר. מתאימה לסגנון משחק המתמקד בפגיעות מדויקות ובודדות בעלות נזק גבוה במקום מטח מהיר.",
     "howToObtainHe": "נוצרת בשולחן הנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -94,7 +94,7 @@
     "nameEn": "Shotgun Shell",
     "nameHe": "תרמיל רובה-ציד",
     "category": "ammo",
-    "descriptionHe": "תרמיל לרובי-ציד, יעיל בטווח קצר כנגד מספר יעדים.",
+    "descriptionHe": "תרמיל לרובי-ציד, יורה כמה קליעים בפיזור בו-זמנית ולכן יעיל מאוד בטווח קצר כנגד מספר יעדים או כנגד יעד בודד קרוב — אך מאבד רוב יעילותו בטווח רחוק בגלל הפיזור.",
     "howToObtainHe": "נוצר בשולחן הנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -104,7 +104,7 @@
     "nameEn": "Coarse Ammo",
     "nameHe": "תחמושת גסה",
     "category": "ammo",
-    "descriptionHe": "תחמושת מאולתרת בדרגה נמוכה, משמשת נשקים פרימיטיביים בשלב ההתחלתי.",
+    "descriptionHe": "תחמושת מאולתרת בדרגה נמוכה, משמשת נשקים פרימיטיביים בשלב ההתחלתי ביותר של המשחק. פשוטה וזולה לייצור, אך בעלת נזק נמוך בהשוואה לתחמושת המתקדמת יותר שנפתחת מאוחר יותר בעץ הטכנולוגיה.",
     "howToObtainHe": "נוצרת בשולחן הנשק הבסיסי.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -114,7 +114,7 @@
     "nameEn": "Small Bullet",
     "nameHe": "קליע קטן",
     "category": "ammo",
-    "descriptionHe": "קליע קל-משקל, משמש בנשקים קלים ומהירי-ירי.",
+    "descriptionHe": "קליע קל-משקל, משמש בנשקים קלים ומהירי-ירי. פשרה בין נזק לקצב ירי — נזק נמוך לפגיעה בודדת, אך מאפשר ירי מהיר ורצוף יחסית בהשוואה לתחמושת כבדה יותר.",
     "howToObtainHe": "נוצר בשולחן הנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -124,7 +124,7 @@
     "nameEn": "Grenade Ammo",
     "nameHe": "תחמושת למשגר רימונים",
     "category": "ammo",
-    "descriptionHe": "רימוני תחמושת למשגר הרימונים, יעילים כנגד קבוצות אויבים ומבנים.",
+    "descriptionHe": "רימוני תחמושת למשגר הרימונים, יעילים כנגד קבוצות אויבים ומבנים בזכות נזק שטח (Area of Effect) — פגיעה אחת יכולה לפגוע במספר יעדים בו-זמנית, בניגוד לרוב התחמושת הרגילה שפוגעת רק ביעד ישיר.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -134,7 +134,7 @@
     "nameEn": "Rocket Ammo",
     "nameHe": "תחמושת רקטות",
     "category": "ammo",
-    "descriptionHe": "תחמושת עוצמתית למשגר המטאורים (Meteor Launcher) ולנשקים דומים בעלי נזק שטח גבוה.",
+    "descriptionHe": "תחמושת עוצמתית למשגר המטאורים (Meteor Launcher) ולנשקים דומים בעלי נזק שטח גבוה. מתאימה במיוחד לפירוק מבנים ובסיסי שודדים, ולפגיעה בבוסים גדולים שקשה להימנע מהם.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -144,7 +144,7 @@
     "nameEn": "Missile Ammo",
     "nameHe": "תחמושת טילים",
     "category": "ammo",
-    "descriptionHe": "תחמושת מונחית-למחצה לנשקי טילים מתקדמים, נזק גבוה מאוד ליעד יחיד.",
+    "descriptionHe": "תחמושת מונחית-למחצה לנשקי טילים מתקדמים, נזק גבוה מאוד ליעד יחיד. מיועדת לשלב המתקדם של המשחק, בעיקר כנגד בוסי אלפא ופאלים בעלי בריאות גבוהה מאוד שדורשים נזק מרוכז מיריעה בודדת.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -154,8 +154,8 @@
     "nameEn": "Gatling Gun Ammo",
     "nameHe": "תחמושת לגאטלינג",
     "category": "ammo",
-    "descriptionHe": "תחמושת בנפח גדול לרובה הגאטלינג מהיר-הירי.",
-    "howToObtainHe": "נוצרת בקו ההרכבה לנשק II (Weapon Assembly Line II).",
+    "descriptionHe": "תחמושת בנפח גדול לרובה הגאטלינג מהיר-הירי, אחד מנשקי הנזק-לשנייה הגבוהים ביותר במשחק. צריכת התחמושת גבוהה מאוד, ולכן דורש ייצור המוני מראש לפני קרבות ארוכים.",
+    "howToObtainHe": "נוצרת בקו ההרכבה לנשק II (Weapon Assembly Line II), מתקן מתקדם יותר מקו ההרכבה הרגיל.",
     "sources": [{ "label": "Palworld Wiki (wiki.gg) — Gatling Gun", "url": "https://palworld.wiki.gg/wiki/Gatling_Gun" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -164,7 +164,7 @@
     "nameEn": "Flamethrower Fuel",
     "nameHe": "דלק למטול-להבות",
     "category": "ammo",
-    "descriptionHe": "דלק בעירה למטול הלהבות, גורם נזק אש מתמשך באזור.",
+    "descriptionHe": "דלק בעירה למטול הלהבות, גורם נזק אש מתמשך באזור מול השחקן במקום פגיעה נקודתית. יעיל במיוחד כנגד קבוצות אויבים צפופות או פאלים החוששים מאש, אך דורש קרבה לטווח האש עצמו.",
     "howToObtainHe": "נוצר בקו ההרכבה לנשק.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -174,7 +174,7 @@
     "nameEn": "Charge Rifle Ammo",
     "nameHe": "תחמושת לרובה טעינה",
     "category": "ammo",
-    "descriptionHe": "תחמושת מתקדמת לרובה הנטען לפני ירי, נזק גבוה ליריעה בודדת.",
+    "descriptionHe": "תחמושת מתקדמת לרובה הנטען לפני ירי, נזק גבוה ליריעה בודדת בתמורה להמתנה לפני כל ירייה. מתאים לשחקנים שמעדיפים פגיעות מדויקות וחזקות על פני קצב ירי גבוה.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -184,7 +184,7 @@
     "nameEn": "Overheat Rifle Ammo",
     "nameHe": "תחמושת לרובה התחממות-יתר",
     "category": "ammo",
-    "descriptionHe": "תחמושת לנשק מתקדם שסופק בסדרות ירי מהירות עד לסכנת התחממות-יתר.",
+    "descriptionHe": "תחמושת לנשק מתקדם שסופק בסדרות ירי מהירות עד לסכנת התחממות-יתר — ככל שיורים ברצף, קצב הירי גובר, אך צריך לתת לנשק להתקרר לפני שהוא נתקע. מתגמל ניהול קרב זהיר על פני לחיצה רציפה על ההדק.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -194,7 +194,7 @@
     "nameEn": "Energy Cartridge",
     "nameHe": "מחסנית אנרגיה",
     "category": "ammo",
-    "descriptionHe": "מחסנית טעונת-אנרגיה לנשקים טכנולוגיים מתקדמים מסוף עץ הטכנולוגיה.",
+    "descriptionHe": "מחסנית טעונת-אנרגיה לנשקים טכנולוגיים מתקדמים מסוף עץ הטכנולוגיה. מייצגת את המעבר מתחמושת פיזית (עופרת/חומרי נפץ) לנשקי אנרגיה בשלב הסופי של המשחק.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -204,7 +204,7 @@
     "nameEn": "Energy Shotgun Ammo",
     "nameHe": "תחמושת לרובה-ציד אנרגיה",
     "category": "ammo",
-    "descriptionHe": "גרסת אנרגיה מתקדמת לתרמיל רובה-הציד, נזק גבוה בטווח קצר.",
+    "descriptionHe": "גרסת אנרגיה מתקדמת לתרמיל רובה-הציד, נזק גבוה בטווח קצר עם היתרונות הנוספים של תחמושת אנרגיה בשלב הסופי של המשחק.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -214,7 +214,7 @@
     "nameEn": "Plasma Cartridge",
     "nameHe": "מחסנית פלזמה",
     "category": "ammo",
-    "descriptionHe": "מחסנית לרובה הפלזמה — אחד הנשקים החזקים בשלב הסופי של המשחק.",
+    "descriptionHe": "מחסנית לרובה הפלזמה — אחד הנשקים החזקים בשלב הסופי של המשחק, ומיועד למי שכבר פיתח את עץ הטכנולוגיה עד סופו.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם ביותר.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -224,7 +224,7 @@
     "nameEn": "Laser Bullet",
     "nameHe": "קליע לייזר",
     "category": "ammo",
-    "descriptionHe": "קליע אנרגיה לנשקי לייזר, פוגע במדויק וללא נפילת קליע לאורך טווח.",
+    "descriptionHe": "קליע אנרגיה לנשקי לייזר, פוגע במדויק וללא נפילת קליע לאורך טווח (בניגוד לקליעים פיזיים שנוטים לרדת מעט על מרחקים ארוכים), מה שהופך אותו למדויק במיוחד לטווח רחוק.",
     "howToObtainHe": "נוצר בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -234,7 +234,7 @@
     "nameEn": "Laser Gatling Cartridge",
     "nameHe": "מחסנית גאטלינג לייזר",
     "category": "ammo",
-    "descriptionHe": "מחסנית בנפח גבוה לגרסת הלייזר של רובה הגאטלינג.",
+    "descriptionHe": "מחסנית בנפח גבוה לגרסת הלייזר של רובה הגאטלינג, משלבת קצב ירי גבוה עם דיוק גבוה יותר מתחמושת פיזית מקבילה.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק II.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -244,8 +244,8 @@
     "nameEn": "Meteorite Bullet",
     "nameHe": "קליע מטאוריט",
     "category": "ammo",
-    "descriptionHe": "קליע נדיר העשוי מחומר מטאוריטי, בין תחמושות סוף-המשחק העוצמתיות ביותר.",
-    "howToObtainHe": "נוצר בקו ההרכבה לנשק המתקדם ביותר, דורש חומרי מטאוריט נדירים.",
+    "descriptionHe": "קליע נדיר העשוי מחומר מטאוריטי, בין תחמושות סוף-המשחק העוצמתיות ביותר. החומרים הדרושים ליצירתו נדירים בעצמם, כך שמדובר בתחמושת ששומרים למקרים החשובים ביותר ולא לשימוש שוטף.",
+    "howToObtainHe": "נוצר בקו ההרכבה לנשק המתקדם ביותר, דורש חומרי מטאוריט נדירים שמתקבלים בעיקר מאירועי מטאוריטים.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
   },
@@ -254,7 +254,7 @@
     "nameEn": "Boost Gun Ammo",
     "nameHe": "תחמושת לרובה ההאצה",
     "category": "ammo",
-    "descriptionHe": "תחמושת לנשק מיוחד המעניק אפקט האצה/דחיפה בעת פגיעה, בשימוש עיקרי לצרכי תנועה או שיבוש יעדים.",
+    "descriptionHe": "תחמושת לנשק מיוחד המעניק אפקט האצה/דחיפה בעת פגיעה, בשימוש עיקרי לצרכי תנועה או שיבוש יעדים במקום נזק ישיר גבוה — נשק תמיכה/תנועה יותר מאשר נשק התקפי טהור.",
     "howToObtainHe": "נוצרת בקו ההרכבה לנשק המתקדם.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
@@ -264,8 +264,8 @@
     "nameEn": "Decal Ink",
     "nameHe": "דיו למדבקה",
     "category": "ammo",
-    "descriptionHe": "פריט התאמה אישית המשמש להטבעת סמלים/מדבקות; מסווג במאגרי הפריטים תחת קטגוריית התחמושת אך אינו קליע קרבי בפועל.",
-    "howToObtainHe": "מתקבל או נוצר במהלך המשחק לצורך התאמה אישית של ציוד.",
+    "descriptionHe": "פריט התאמה אישית המשמש להטבעת סמלים/מדבקות על ציוד; מסווג במאגרי הפריטים תחת קטגוריית התחמושת מסיבות טכניות של המשחק, אך אינו קליע קרבי בפועל ואינו משפיע על נזק או קרב.",
+    "howToObtainHe": "מתקבל או נוצר במהלך המשחק לצורך התאמה אישית של ציוד — לא נדרש לקרב.",
     "sources": [{ "label": "Palworld Wiki (Fextralife) — Ammo", "url": "https://palworld.wiki.fextralife.com/Ammo" }],
     "lastVerifiedVersion": "1.0.1"
   }
