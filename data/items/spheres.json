@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pal-sphere",
+    "nameEn": "Pal Sphere",
+    "nameHe": "כדור פאל בסיסי",
+    "category": "sphere",
+    "tier": 1,
+    "descriptionHe": "כדור התפיסה הבסיסי ביותר במשחק. סיכויי תפיסה נמוכים יחסית, אך זול וקל לייצור כבר בשלב ההתחלתי.",
+    "howToObtainHe": "נוצר במתקן היצירה הבסיסי (Primitive Workbench) ממעט פלדיום גולמי ועץ.",
+    "sources": [
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "mega-sphere",
+    "nameEn": "Mega Sphere",
+    "nameHe": "כדור מגה",
+    "category": "sphere",
+    "tier": 2,
+    "descriptionHe": "שדרוג לכדור הבסיסי עם סיכויי תפיסה גבוהים יותר, מתאים לשלבים המוקדמים-בינוניים של המשחק.",
+    "howToObtainHe": "נוצר בשולחן העבודה לכדורים (Sphere Workbench) לאחר פתיחתו בעץ הטכנולוגיה.",
+    "sources": [
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "giga-sphere",
+    "nameEn": "Giga Sphere",
+    "nameHe": "כדור גיגה",
+    "category": "sphere",
+    "tier": 3,
+    "descriptionHe": "כדור בדרגת ביניים-גבוהה, נדרש בדרך כלל כדי לתפוס פאלים חזקים יותר באמצע המשחק.",
+    "howToObtainHe": "נוצר בשולחן העבודה לכדורים או בקו ההרכבה לכדורים (Sphere Assembly Line) לאחר פתיחת המתכון.",
+    "sources": [
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "hyper-sphere",
+    "nameEn": "Hyper Sphere",
+    "nameHe": "כדור היפר",
+    "category": "sphere",
+    "tier": 4,
+    "descriptionHe": "כדור מתקדם עם סיכויי תפיסה גבוהים, שימושי כנגד פאלים נדירים ובעלי רמה גבוהה.",
+    "howToObtainHe": "נוצר בקו ההרכבה לכדורים לאחר פתיחת המתכון בעץ הטכנולוגיה.",
+    "sources": [
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "ultra-sphere",
+    "nameEn": "Ultra Sphere",
+    "nameHe": "כדור אולטרה",
+    "category": "sphere",
+    "tier": 5,
+    "descriptionHe": "אחד הכדורים החזקים בשלב הרגיל של המשחק, בעל סיכויי תפיסה גבוהים מאוד גם כנגד פאלים קשוחים.",
+    "howToObtainHe": "נוצר בקו ההרכבה לכדורים; דורש חומרים מתקדמים יותר ממתכות ומפלדיום.",
+    "sources": [
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "legendary-sphere",
+    "nameEn": "Legendary Sphere",
+    "nameHe": "כדור אגדי",
+    "category": "sphere",
+    "tier": 6,
+    "descriptionHe": "כדור בדרגה גבוהה מאוד המיועד לתפיסת פאלים אגדיים וחזקים במיוחד לקראת סוף המשחק.",
+    "howToObtainHe": "נוצר בקו ההרכבה לכדורים המתקדם, לאחר פתיחת מתכון ברמת טכנולוגיה גבוהה.",
+    "sources": [
+      { "label": "Game8 — List of All Pal Spheres and How to Farm", "url": "https://game8.co/games/Palworld/archives/440112" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "ultimate-sphere",
+    "nameEn": "Ultimate Sphere",
+    "nameHe": "כדור אולטימטיבי",
+    "category": "sphere",
+    "tier": 7,
+    "descriptionHe": "כדור ברמה גבוהה שנוסף בעדכון 1.0, מיועד לשלב המתקדם של המשחק לאחר פתיחת האזורים העל-עולמיים.",
+    "howToObtainHe": "דורש רמת טכנולוגיה 51 (5 נקודות טכנולוגיה) לפתיחה. מתכון ליצירת כדור אחד: 20 שברי פלדיום, 10 מטילי מתכת-פאל, 5 סיבי פחמן, 5 פלסטיל.",
+    "sources": [
+      { "label": "Game8 — How to Get Ultimate Sphere", "url": "https://sportskeeda.com/mmo/how-get-ultimate-sphere-palworld" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "exotic-sphere",
+    "nameEn": "Exotic Sphere",
+    "nameHe": "כדור אקזוטי",
+    "category": "sphere",
+    "tier": 8,
+    "descriptionHe": "כדור נדיר שנוסף בעדכון Feybreak, מיועד לתפיסת הפאלים החזקים ביותר שניתנים לתפיסה במשחק הרגיל.",
+    "howToObtainHe": "דורש רמת טכנולוגיה 58 (5 נקודות טכנולוגיה) לפתיחה. מתכון ליצירת כדור אחד: 15 שברי פלדיום, 1 פלסטיל, 10 עץ קשה, 1 הקסוליט.",
+    "sources": [
+      { "label": "palmods.gg — How to Get Exotic Sphere in Palworld 1.0", "url": "https://www.palmods.gg/guides/items/exotic-sphere" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "sol-sphere",
+    "nameEn": "Sol Sphere",
+    "nameHe": "כדור סול",
+    "category": "sphere",
+    "tier": 9,
+    "descriptionHe": "כדור באיכות גבוהה מתקופת ציוויליזציה עתיקה, מתואר במשחק כמי שאיפשר דו-קיום עם הפאלים. אינו ניתן ליצירה בשולחן עבודה.",
+    "howToObtainHe": "לא נרכש ממוכרים ואינו מופל מאויבים. מתקבל כמציאה בהריסות, בערמות גרוטאות ובתיבות אוצר באי המרחף (Floating Island).",
+    "sources": [
+      { "label": "Palworld Wiki (wiki.gg) — Sol Sphere", "url": "https://palworld.wiki.gg/wiki/Sol_Sphere" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  },
+  {
+    "id": "ancient-sphere",
+    "nameEn": "Ancient Sphere",
+    "nameHe": "כדור עתיק",
+    "category": "sphere",
+    "tier": 10,
+    "descriptionHe": "הכדור החזק ביותר במשחק — תואר כיצירתה של ציוויליזציה עתיקה ואגדית שהוטענה בכוחו של עץ העולם (World Tree). נדיר יותר מכדור הסול.",
+    "howToObtainHe": "לא ניתן ליצירה. מתקבל אך ורק מתוך תיבות אוצר באי המרחף (Floating Island) — לא נמצא בערמות גרוטאות או במשלוחים שנפלו.",
+    "sources": [
+      { "label": "Palworld Fandom — Ancient Sphere", "url": "https://palworld.fandom.com/wiki/Ancient_Sphere" }
+    ],
+    "lastVerifiedVersion": "1.0.1"
+  }
+]
