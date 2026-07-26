@@ -12,6 +12,7 @@
     "threatLevel": "extreme",
     "nearbyLandmarks": ["Ruined Fortress City", "Scorching Mineshaft"],
     "notes": "The overworld's single fastest flying mount Pal. Spawns alone at a fixed point rather than randomly, so once found it can be farmed reliably on respawn. Bring strong ranged weapons and heat resistance for the surrounding volcanic terrain.",
+    "notesHe": "פאל הרכיבה המעופף המהיר ביותר בעולם הפתוח. מופיע לבדו בנקודה קבועה ולא באקראי, כך שברגע שאותרה ניתן לחזור אליה בבטחה עם כל היוולדות מחדש. יש להצטייד בנשק טווח חזק ובעמידות חום בשל הטופוגרפיה הוולקנית מסביב.",
     "sources": [
       { "label": "NextTier — Palworld Legendary Pal Locations", "url": "https://nexttier.pro/guide/palworld-legendary-pal-locations" }
     ],
@@ -30,6 +31,7 @@
     "threatLevel": "extreme",
     "nearbyLandmarks": ["Land of Absolute Zero", "Pristine Snowfield"],
     "notes": "Spawns on the frozen lake east of the Land of Absolute Zero fast travel point. Extreme cold damage in the area — equip cold resistance armor before engaging.",
+    "notesHe": "מופיע על האגם הקפוא ממזרח לנקודת ההעברה המהירה \"ארץ האפס המוחלט\". נזק קור קיצוני באזור — יש לצייד שריון עמיד-קור לפני הקרב.",
     "sources": [
       { "label": "Switchblade Gaming — Palworld Frostallion Guide", "url": "https://www.switchbladegaming.com/palworld/frostallion-guide/" }
     ],
@@ -48,6 +50,7 @@
     "threatLevel": "extreme",
     "nearbyLandmarks": ["Necromus spawn point (same area)"],
     "notes": "Spawns together with Necromus in the same desert area — expect to fight both in the vicinity. Bring a full endgame loadout.",
+    "notesHe": "מופיע יחד עם נקרומוס באותו אזור מדברי — יש לצפות להילחם בשניהם באזור הקרוב. מומלץ ציוד מלא מסוף המשחק.",
     "sources": [
       { "label": "NextTier — Palworld Legendary Pal Locations", "url": "https://nexttier.pro/guide/palworld-legendary-pal-locations" }
     ],
@@ -66,6 +69,7 @@
     "threatLevel": "extreme",
     "nearbyLandmarks": ["Paladius spawn point (same area)"],
     "notes": "Shares its spawn area with Paladius. Dark-element attacks hit hard — bring Pals or gear with Dark resistance.",
+    "notesHe": "חולק את אזור ההופעה עם פלדיוס. התקפות מסוג חושך פוגעות חזק — מומלץ פאלים או ציוד עם עמידות לחושך.",
     "sources": [
       { "label": "NextTier — Palworld Legendary Pal Locations", "url": "https://nexttier.pro/guide/palworld-legendary-pal-locations" }
     ],
@@ -84,6 +88,7 @@
     "threatLevel": "extreme",
     "nearbyLandmarks": ["Mount Obsidian"],
     "notes": "Unlike the other Legendary Pals, Blazamut (a level 49 Alpha) is found inside the Scorching Mineshaft dungeon rather than in the open world — the marker here is the cave entrance, not the boss room itself. Bring heat resistant clothing and a light source (Torch or Fire-element Pal).",
+    "notesHe": "בשונה משאר הפאלים האגדיים, בלאזמוט (אלפא ברמה 49) נמצא בתוך מבוך מכרה הבעירה ולא בעולם הפתוח — הסמן כאן מציין את כניסת המערה, לא את חדר הבוס עצמו. יש להצטייד בביגוד עמיד-חום ובמקור אור (לפיד או פאל מסוג אש).",
     "sources": [
       { "label": "dotesports — Blazamut boss fight location in Palworld", "url": "https://dotesports.com/palworld/news/blazamut-boss-fight-location-in-palworld" }
     ],

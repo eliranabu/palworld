@@ -4,6 +4,7 @@ import { Compass } from "lucide-react";
 const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/items", label: "פריטים" },
+  { href: "/map", label: "מפה" },
 ];
 
 export function Header() {

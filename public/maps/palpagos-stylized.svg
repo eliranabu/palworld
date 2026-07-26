@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-900 -800 1800 1650" role="img" aria-label="Stylized reference map of the Palpagos Islands (fan-made, not an official game asset)">
+  <defs>
+    <radialGradient id="ocean" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0f3a52" />
+      <stop offset="100%" stop-color="#071c2b" />
+    </radialGradient>
+    <radialGradient id="land" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a5a3f" />
+      <stop offset="100%" stop-color="#233d29" />
+    </radialGradient>
+    <radialGradient id="volcanic" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#a3402a" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#a3402a" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="snow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#cfe8f2" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#cfe8f2" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="desert" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#d2a860" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#d2a860" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="coastal" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#4f9b8f" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#4f9b8f" stop-opacity="0" />
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45" />
+    </filter>
+  </defs>
+
+  <rect x="-900" y="-800" width="1800" height="1650" fill="url(#ocean)" />
+
+  <path
+    d="M -700,-500 C -820,-350 -800,-50 -680,150 C -600,320 -600,520 -420,620 C -200,720 100,680 320,600
+       C 560,520 700,300 640,60 C 600,-120 660,-380 500,-520 C 320,-670 60,-680 -180,-620
+       C -400,-570 -560,-640 -700,-500 Z"
+    fill="url(#land)"
+    stroke="#152a19"
+    stroke-width="6"
+  />
+
+  <ellipse cx="-600" cy="350" rx="330" ry="290" fill="url(#volcanic)" filter="url(#soft)" />
+  <ellipse cx="-350" cy="-450" rx="300" ry="280" fill="url(#snow)" filter="url(#soft)" />
+  <ellipse cx="450" cy="-560" rx="290" ry="240" fill="url(#desert)" filter="url(#soft)" />
+  <ellipse cx="-420" cy="640" rx="260" ry="180" fill="url(#coastal)" filter="url(#soft)" />
+  <ellipse cx="760" cy="500" rx="180" ry="160" fill="url(#volcanic)" filter="url(#soft)" opacity="0.6" />
+
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="2">
+    <line x1="-900" y1="-600" x2="900" y2="-600" />
+    <line x1="-900" y1="-300" x2="900" y2="-300" />
+    <line x1="-900" y1="0" x2="900" y2="0" />
+    <line x1="-900" y1="300" x2="900" y2="300" />
+    <line x1="-900" y1="600" x2="900" y2="600" />
+    <line x1="-600" y1="-800" x2="-600" y2="850" />
+    <line x1="-300" y1="-800" x2="-300" y2="850" />
+    <line x1="0" y1="-800" x2="0" y2="850" />
+    <line x1="300" y1="-800" x2="300" y2="850" />
+    <line x1="600" y1="-800" x2="600" y2="850" />
+  </g>
+
+  <text x="0" y="-720" text-anchor="middle" fill="#ffffff" fill-opacity="0.35" font-family="sans-serif" font-size="34" letter-spacing="6">
+    PALPAGOS ISLANDS — STYLIZED REFERENCE MAP
+  </text>
+</svg>

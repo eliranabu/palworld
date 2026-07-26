@@ -21,12 +21,12 @@ const FEATURES = [
     status: "live" as const,
   },
   {
-    href: "#",
+    href: "/map",
     icon: MapPinned,
     title: "מפה אינטראקטיבית",
     titleEn: "Interactive Map",
-    description: "זום, סינון, ומיקומים על מפה מותאמת אישית.",
-    status: "soon" as const,
+    description: "זום, סינון, ומיקומים על מפת ייחוס מעוצבת.",
+    status: "live" as const,
   },
   {
     href: "#",
