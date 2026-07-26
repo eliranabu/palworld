@@ -79,3 +79,40 @@ export type Item = {
   sources: SourceRef[];
   lastVerifiedVersion: string;
 };
+
+export type PalSuitability = {
+  type: string;
+  level: number;
+};
+
+export type PalStats = {
+  hp: number;
+  attackMelee: number;
+  attackRanged: number;
+  defense: number;
+  speedRun: number;
+  stamina: number;
+};
+
+/**
+ * Regular (non-Legendary) Pal roster entry. Data (stats, types, suitability,
+ * descriptions) sourced from the MIT-licensed palworld-paldex-api dataset;
+ * `descriptionHe` is a fan translation of the official English flavor text.
+ * Names are kept in English (`name`) — there's no official Hebrew
+ * localization and community usage sticks to the original species names,
+ * same convention as Legendary Pals.
+ */
+export type Pal = {
+  id: number;
+  name: string;
+  types: string[];
+  descriptionHe: string;
+  stats: PalStats;
+  suitability: PalSuitability[];
+  rarity: number;
+  genus: string;
+  price: number;
+  size: string;
+  sources: SourceRef[];
+  lastVerifiedVersion: string;
+};

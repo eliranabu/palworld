@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { Download, Upload, RotateCcw, Star, CheckCircle2 } from "lucide-react";
-import { legendaryPals, hugeDragonEggZones, items } from "@/lib/data";
+import { legendaryPals, hugeDragonEggZones, items, pals } from "@/lib/data";
 import { useProgressStore } from "@/store/progress";
 import { useHasMounted } from "@/lib/use-has-mounted";
 
@@ -18,7 +18,13 @@ const ITEM_ENTRIES = items.map((item) => ({
   href: `/items#${item.id}`,
 }));
 
-const ALL_ENTRIES = [...LOCATION_ENTRIES, ...ITEM_ENTRIES];
+const PAL_ENTRIES = pals.map((pal) => ({
+  id: `palroster-${pal.id}`,
+  title: pal.name,
+  href: `/pals/${pal.id}`,
+}));
+
+const ALL_ENTRIES = [...LOCATION_ENTRIES, ...ITEM_ENTRIES, ...PAL_ENTRIES];
 
 export default function ProgressPage() {
   const mounted = useHasMounted();
