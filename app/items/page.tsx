@@ -3,6 +3,7 @@ import { CircleDot, Crosshair, Swords, Shield, Gem, Utensils, type LucideIcon } 
 import { ammo, armor, materials, spheres } from "@/lib/data";
 import type { Item, ItemCategory } from "@/lib/types";
 import { TrackButtons } from "@/components/progress/TrackButtons";
+import { PersonalImage } from "@/components/personal-image/PersonalImage";
 
 export const metadata: Metadata = {
   title: "מאגר פריטים | Palworld Hunter",
@@ -51,6 +52,9 @@ function ItemCard({ item }: { item: Item }) {
       <p dir="ltr" className="mb-3 text-left text-xs text-zinc-500">
         {item.nameEn}
       </p>
+      <div className="mb-3 w-24">
+        <PersonalImage id={`item-${item.id}`} alt={item.nameHe} />
+      </div>
       <p className="mb-3 text-sm leading-relaxed text-zinc-300">{item.descriptionHe}</p>
       <p className="mb-4 text-sm leading-relaxed text-zinc-400">
         <span className="font-medium text-zinc-300">איך משיגים: </span>
