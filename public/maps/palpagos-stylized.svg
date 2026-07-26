@@ -1,65 +1,163 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-900 -800 1800 1650" role="img" aria-label="Stylized reference map of the Palpagos Islands (fan-made, not an official game asset)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-900 -800 1800 1650" role="img" aria-label="Stylized reference map of the Palpagos Islands (original fan art, not an official game asset)">
   <defs>
-    <radialGradient id="ocean" cx="50%" cy="45%" r="75%">
-      <stop offset="0%" stop-color="#0f3a52" />
-      <stop offset="100%" stop-color="#071c2b" />
+    <!-- Ocean: dark mesh gradient -->
+    <radialGradient id="ocean1" cx="20%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="land" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#3a5a3f" />
-      <stop offset="100%" stop-color="#233d29" />
+    <radialGradient id="ocean2" cx="82%" cy="15%" r="50%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="volcanic" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#a3402a" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#a3402a" stop-opacity="0" />
+    <radialGradient id="ocean3" cx="55%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="snow" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#cfe8f2" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#cfe8f2" stop-opacity="0" />
+
+    <linearGradient id="land" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d5f43" />
+      <stop offset="55%" stop-color="#2c4a32" />
+      <stop offset="100%" stop-color="#1f3924" />
+    </linearGradient>
+
+    <radialGradient id="volcanicGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#c2410c" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#c2410c" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="desert" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#d2a860" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#d2a860" stop-opacity="0" />
+    <radialGradient id="snowGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#bfe3f2" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#bfe3f2" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="coastal" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#4f9b8f" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#4f9b8f" stop-opacity="0" />
+    <radialGradient id="desertGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#d6a24d" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#d6a24d" stop-opacity="0" />
     </radialGradient>
+    <radialGradient id="coastGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+    </radialGradient>
+
     <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="45" />
+      <feGaussianBlur stdDeviation="55" />
     </filter>
+    <filter id="landShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="24" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+
+    <!-- Landmass path, reused for fill + clip -->
+    <path id="mainIsland" d="M -700,-500 C -800,-400 -830,-220 -760,-80 C -710,20 -730,140 -670,240
+       C -600,360 -600,500 -460,600 C -300,700 -60,690 160,660
+       C 380,630 560,540 620,380 C 670,250 630,140 660,10
+       C 700,-160 700,-360 560,-500 C 400,-660 140,-680 -100,-640
+       C -320,-600 -560,-630 -700,-500 Z" />
+    <path id="isleNE" d="M 700,-620 C 760,-660 850,-640 870,-570 C 890,-500 840,-440 770,-440 C 700,-440 660,-500 660,-560 C 660,-590 675,-605 700,-620 Z" />
+    <path id="isleSE" d="M 760,420 C 830,400 900,440 900,510 C 900,580 840,620 780,600 C 720,580 700,520 715,470 C 722,445 740,430 760,420 Z" />
+
+    <clipPath id="islandClip">
+      <use href="#mainIsland" />
+    </clipPath>
+    <clipPath id="volcanicClip">
+      <ellipse cx="-600" cy="330" rx="340" ry="300" />
+    </clipPath>
+    <clipPath id="snowClip">
+      <ellipse cx="-350" cy="-460" rx="310" ry="290" />
+    </clipPath>
+    <clipPath id="desertClip">
+      <ellipse cx="450" cy="-560" rx="300" ry="250" />
+    </clipPath>
+    <clipPath id="coastClip">
+      <ellipse cx="-420" cy="640" rx="270" ry="190" />
+    </clipPath>
+    <clipPath id="grassClip">
+      <ellipse cx="-256" cy="-131" rx="220" ry="180" />
+    </clipPath>
+    <clipPath id="isleClipNE">
+      <use href="#isleNE" />
+    </clipPath>
+    <clipPath id="isleClipSE">
+      <use href="#isleSE" />
+    </clipPath>
+
+    <pattern id="mountainTexture" width="90" height="70" patternUnits="userSpaceOnUse" patternTransform="translate(-600,350)">
+      <path d="M0,70 L22,20 L36,45 L52,5 L70,50 L90,70 Z" fill="#7c2d12" opacity="0.55" />
+    </pattern>
+    <pattern id="snowTexture" width="70" height="70" patternUnits="userSpaceOnUse" patternTransform="translate(-350,-450)">
+      <circle cx="16" cy="18" r="3.2" fill="#eaf6fb" opacity="0.85" />
+      <circle cx="46" cy="40" r="2.4" fill="#eaf6fb" opacity="0.7" />
+      <circle cx="60" cy="12" r="2.8" fill="#eaf6fb" opacity="0.75" />
+      <circle cx="10" cy="55" r="2.2" fill="#eaf6fb" opacity="0.6" />
+    </pattern>
+    <pattern id="duneTexture" width="100" height="34" patternUnits="userSpaceOnUse" patternTransform="translate(450,-560) rotate(-6)">
+      <path d="M0,20 Q25,4 50,20 T100,20" fill="none" stroke="#a9793e" stroke-width="3" opacity="0.5" />
+    </pattern>
+    <pattern id="grassTexture" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="translate(-256,-131)">
+      <path d="M10,50 L10,34 M26,50 L26,30 M42,50 L42,36" stroke="#86bb8c" stroke-width="2.5" opacity="0.45" stroke-linecap="round" />
+    </pattern>
   </defs>
 
-  <rect x="-900" y="-800" width="1800" height="1650" fill="url(#ocean)" />
-
-  <path
-    d="M -700,-500 C -820,-350 -800,-50 -680,150 C -600,320 -600,520 -420,620 C -200,720 100,680 320,600
-       C 560,520 700,300 640,60 C 600,-120 660,-380 500,-520 C 320,-670 60,-680 -180,-620
-       C -400,-570 -560,-640 -700,-500 Z"
-    fill="url(#land)"
-    stroke="#152a19"
-    stroke-width="6"
-  />
-
-  <ellipse cx="-600" cy="350" rx="330" ry="290" fill="url(#volcanic)" filter="url(#soft)" />
-  <ellipse cx="-350" cy="-450" rx="300" ry="280" fill="url(#snow)" filter="url(#soft)" />
-  <ellipse cx="450" cy="-560" rx="290" ry="240" fill="url(#desert)" filter="url(#soft)" />
-  <ellipse cx="-420" cy="640" rx="260" ry="180" fill="url(#coastal)" filter="url(#soft)" />
-  <ellipse cx="760" cy="500" rx="180" ry="160" fill="url(#volcanic)" filter="url(#soft)" opacity="0.6" />
-
-  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="2">
-    <line x1="-900" y1="-600" x2="900" y2="-600" />
-    <line x1="-900" y1="-300" x2="900" y2="-300" />
-    <line x1="-900" y1="0" x2="900" y2="0" />
-    <line x1="-900" y1="300" x2="900" y2="300" />
-    <line x1="-900" y1="600" x2="900" y2="600" />
-    <line x1="-600" y1="-800" x2="-600" y2="850" />
-    <line x1="-300" y1="-800" x2="-300" y2="850" />
-    <line x1="0" y1="-800" x2="0" y2="850" />
-    <line x1="300" y1="-800" x2="300" y2="850" />
-    <line x1="600" y1="-800" x2="600" y2="850" />
+  <!-- Ocean -->
+  <rect x="-900" y="-800" width="1800" height="1650" fill="#050b14" />
+  <rect x="-900" y="-800" width="1800" height="1650" fill="url(#ocean1)" />
+  <rect x="-900" y="-800" width="1800" height="1650" fill="url(#ocean2)" />
+  <rect x="-900" y="-800" width="1800" height="1650" fill="url(#ocean3)" />
+  <g stroke="#7dd3fc" stroke-opacity="0.05" stroke-width="2" fill="none">
+    <path d="M -880,-700 Q -400,-680 100,-700 T 880,-680" />
+    <path d="M -880,780 Q -350,800 150,780 T 880,800" />
   </g>
 
-  <text x="0" y="-720" text-anchor="middle" fill="#ffffff" fill-opacity="0.35" font-family="sans-serif" font-size="34" letter-spacing="6">
-    PALPAGOS ISLANDS — STYLIZED REFERENCE MAP
+  <!-- Landmasses -->
+  <g filter="url(#landShadow)">
+    <use href="#mainIsland" fill="url(#land)" stroke="#e8dba3" stroke-opacity="0.5" stroke-width="5" />
+    <use href="#isleNE" fill="url(#land)" stroke="#e8dba3" stroke-opacity="0.5" stroke-width="4" />
+    <use href="#isleSE" fill="url(#land)" stroke="#e8dba3" stroke-opacity="0.5" stroke-width="4" />
+  </g>
+  <g clip-path="url(#isleClipNE)">
+    <rect x="600" y="-700" width="320" height="320" fill="url(#grassTexture)" />
+  </g>
+  <g clip-path="url(#isleClipSE)">
+    <rect x="660" y="360" width="300" height="300" fill="url(#grassTexture)" />
+  </g>
+
+  <!-- Biome texture, clipped to the main island so nothing bleeds into the ocean -->
+  <g clip-path="url(#islandClip)">
+    <ellipse cx="-600" cy="330" rx="340" ry="300" fill="url(#volcanicGlow)" filter="url(#soft)" />
+    <ellipse cx="-350" cy="-460" rx="310" ry="290" fill="url(#snowGlow)" filter="url(#soft)" />
+    <ellipse cx="450" cy="-560" rx="300" ry="250" fill="url(#desertGlow)" filter="url(#soft)" />
+    <ellipse cx="-420" cy="640" rx="270" ry="190" fill="url(#coastGlow)" filter="url(#soft)" />
+    <ellipse cx="-256" cy="-131" rx="220" ry="180" fill="#4ade80" opacity="0.06" />
+
+    <rect x="-900" y="-800" width="1800" height="1650" fill="url(#mountainTexture)" clip-path="url(#volcanicClip)" />
+    <rect x="-900" y="-800" width="1800" height="1650" fill="url(#snowTexture)" clip-path="url(#snowClip)" />
+    <rect x="-900" y="-800" width="1800" height="1650" fill="url(#duneTexture)" clip-path="url(#desertClip)" />
+    <rect x="-900" y="-800" width="1800" height="1650" fill="url(#grassTexture)" clip-path="url(#grassClip)" />
+  </g>
+  <use href="#mainIsland" fill="none" stroke="#0f2417" stroke-width="3" stroke-opacity="0.6" />
+
+  <!-- Region labels -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#f5f1e6" text-anchor="middle">
+    <text x="-600" y="345" font-size="30" letter-spacing="2" opacity="0.92">Mount Obsidian</text>
+    <text x="-350" y="-455" font-size="30" letter-spacing="2" opacity="0.92">Astral Mountains</text>
+    <text x="450" y="-555" font-size="30" letter-spacing="2" opacity="0.92">Desiccated Desert</text>
+    <text x="-420" y="655" font-size="26" letter-spacing="2" opacity="0.88">Southwestern Coast</text>
+    <text x="-256" y="-115" font-size="24" letter-spacing="2" opacity="0.85">Central Palpagos</text>
+  </g>
+
+  <!-- Compass rose -->
+  <g transform="translate(-800,-680)" stroke="#fbbf24" fill="#fbbf24">
+    <circle r="46" fill="none" stroke-opacity="0.5" stroke-width="2" />
+    <path d="M0,-38 L10,0 L0,38 L-10,0 Z" fill-opacity="0.9" />
+    <path d="M-38,0 L0,-8 L38,0 L0,8 Z" fill-opacity="0.5" />
+    <text y="-54" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700">N</text>
+  </g>
+
+  <!-- Frame -->
+  <rect x="-880" y="-780" width="1760" height="1610" fill="none" stroke="#fbbf24" stroke-opacity="0.25" stroke-width="3" />
+  <rect x="-865" y="-765" width="1730" height="1580" fill="none" stroke="#fbbf24" stroke-opacity="0.12" stroke-width="1.5" />
+
+  <text x="0" y="-735" text-anchor="middle" fill="#ffffff" fill-opacity="0.4" font-family="sans-serif" font-size="26" letter-spacing="6">
+    PALPAGOS ISLANDS
+  </text>
+  <text x="0" y="795" text-anchor="middle" fill="#ffffff" fill-opacity="0.28" font-family="sans-serif" font-size="15" letter-spacing="1">
+    Original stylized fan art — not an official game map or screenshot
   </text>
 </svg>
