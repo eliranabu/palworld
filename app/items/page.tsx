@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { CircleDot, Crosshair, Swords, Shield, Gem, Utensils, type LucideIcon } from "lucide-react";
 import { ammo, armor, materials, spheres } from "@/lib/data";
 import type { Item, ItemCategory } from "@/lib/types";
+import { TrackButtons } from "@/components/progress/TrackButtons";
 
 export const metadata: Metadata = {
   title: "מאגר פריטים | Palworld Hunter",
@@ -38,11 +39,14 @@ function ItemCard({ item }: { item: Item }) {
           <Icon className="size-4 shrink-0 text-amber-400/70" aria-hidden="true" />
           {item.nameHe}
         </h3>
-        {item.tier !== undefined && (
-          <span className="shrink-0 rounded-full bg-amber-400/10 px-2.5 py-0.5 text-xs font-medium text-amber-300">
-            דרגה {item.tier}
-          </span>
-        )}
+        <div className="flex shrink-0 items-center gap-2">
+          {item.tier !== undefined && (
+            <span className="rounded-full bg-amber-400/10 px-2.5 py-0.5 text-xs font-medium text-amber-300">
+              דרגה {item.tier}
+            </span>
+          )}
+          <TrackButtons id={`item-${item.id}`} showVisited={false} />
+        </div>
       </header>
       <p dir="ltr" className="mb-3 text-left text-xs text-zinc-500">
         {item.nameEn}

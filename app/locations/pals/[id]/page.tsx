@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { legendaryPals, getLegendaryPalById } from "@/lib/data";
 import { THREAT_LEVEL_HE, THREAT_LEVEL_COLOR, elementToHe } from "@/lib/labels";
+import { TrackButtons } from "@/components/progress/TrackButtons";
+import { PersonalNote } from "@/components/progress/PersonalNote";
 
 export function generateStaticParams() {
   return legendaryPals.map((pal) => ({ id: pal.id }));
@@ -37,11 +39,14 @@ export default async function LegendaryPalPage({
       </Link>
 
       <header className="mb-8">
-        <div className="mb-2 flex flex-wrap items-center gap-3">
-          <h1 className="text-4xl font-extrabold tracking-tight text-zinc-50">{pal.name}</h1>
-          <span className={`rounded-full px-3 py-1 text-xs font-medium ${THREAT_LEVEL_COLOR[pal.threatLevel]}`}>
-            סכנה {THREAT_LEVEL_HE[pal.threatLevel]}
-          </span>
+        <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
+          <div className="flex flex-wrap items-center gap-3">
+            <h1 className="text-4xl font-extrabold tracking-tight text-zinc-50">{pal.name}</h1>
+            <span className={`rounded-full px-3 py-1 text-xs font-medium ${THREAT_LEVEL_COLOR[pal.threatLevel]}`}>
+              סכנה {THREAT_LEVEL_HE[pal.threatLevel]}
+            </span>
+          </div>
+          <TrackButtons id={`pal-${pal.id}`} />
         </div>
         <p className="text-zinc-500">{elementToHe(pal.element)} · {pal.region}</p>
       </header>
@@ -89,6 +94,10 @@ export default async function LegendaryPalPage({
       <div className="mb-8 rounded-2xl border border-white/10 bg-white/5 p-6">
         <h2 className="mb-2 text-sm font-semibold text-zinc-300">הערות</h2>
         <p className="text-sm leading-relaxed text-zinc-400">{pal.notesHe}</p>
+      </div>
+
+      <div className="mb-8">
+        <PersonalNote id={`pal-${pal.id}`} />
       </div>
 
       <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4 text-xs text-zinc-500">
